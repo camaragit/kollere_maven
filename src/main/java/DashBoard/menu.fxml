@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="menu" prefHeight="720.0" prefWidth="204.0" style="-fx-background-color: #80DEEA; -fx-border-color: #999900;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:dashBoardController="Controllers.MenuControlleur">
+   <children>
+      <ImageView fitHeight="111.0" fitWidth="196.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo_KOLLERE.png" />
+         </image>
+         <VBox.margin>
+            <Insets left="20.0" right="20.0" top="10.0" />
+         </VBox.margin>
+      </ImageView>
+      <Separator opacity="0.3" prefWidth="200.0" style="-fx-border-color: #999900;" />
+      <JFXButton fx:id="btnHome" buttonType="RAISED" onAction="#loadticket" prefHeight="42.0" prefWidth="172.0" ripplerFill="#81d4fa" style="-fx-background-radius: 4; -fx-background-color: #880E4F; -fx-alignment: CENTER_LEFT;" text="Ticket" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="17.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView fill="WHITE" glyphName="SHOPPING_CART" size="24" wrappingWidth="43.0" />
+         </graphic>
+         <opaqueInsets>
+            <Insets top="25.0" />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets left="25.0" right="25.0" top="25.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton fx:id="btnPricing" buttonType="RAISED" prefHeight="42.0" prefWidth="171.0" ripplerFill="#81d4fa" style="-fx-background-radius: 4; -fx-background-color: #880E4F; -fx-alignment: CENTER_LEFT;" text="Carte" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="17.0" />
+         </font>
+         <graphic>
+            <MaterialDesignIconView fill="WHITE" glyphName="CREDIT_CARD" size="24" wrappingWidth="42.99997329711914" />
+         </graphic>
+         <opaqueInsets>
+            <Insets top="25.0" />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets left="25.0" right="25.0" top="25.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton fx:id="btnContacts" buttonType="RAISED" prefHeight="42.0" prefWidth="170.0" ripplerFill="#81d4fa" style="-fx-background-radius: 4; -fx-background-color: #880E4F; -fx-alignment: CENTER_LEFT;" text="Solde" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="17.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView fill="WHITE" glyphName="GROUP" size="17.0" wrappingWidth="43.0" />
+         </graphic>
+         <opaqueInsets>
+            <Insets top="25.0" />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets left="25.0" right="25.0" top="25.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton fx:id="btnWidgets" buttonType="RAISED" prefHeight="42.0" prefWidth="169.0" ripplerFill="#81d4fa" style="-fx-background-radius: 4; -fx-background-color: #880E4F; -fx-alignment: CENTER_LEFT;" text="Historique" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="17.0" />
+         </font>
+         <graphic>
+            <MaterialDesignIconView fill="WHITE" glyphName="HISTORY" size="24" wrappingWidth="27.99997329711914" />
+         </graphic>
+         <opaqueInsets>
+            <Insets top="25.0" />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets left="25.0" right="25.0" top="25.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton fx:id="btnProfile" buttonType="RAISED" prefHeight="42.0" prefWidth="171.0" ripplerFill="#81d4fa" style="-fx-background-radius: 4; -fx-background-color: #880E4F; -fx-alignment: CENTER_LEFT;" text="Déconnexion" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="17.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView fill="WHITE" glyphName="USER" size="17.0" wrappingWidth="43.0" />
+         </graphic>
+         <opaqueInsets>
+            <Insets top="25.0" />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets left="25.0" right="25.0" top="25.0" />
+         </VBox.margin>
+      </JFXButton>
+   </children>
+</VBox>

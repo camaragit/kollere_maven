@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="modules.login.LoginController">
+   <children>
+      <StackPane layoutX="184.0" layoutY="100.0" prefHeight="550.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #999900;" />
+                  <Pane prefHeight="351.0" prefWidth="800.0" style="-fx-background-color: #EDE7F6;" />
+               </children>
+            </VBox>
+            <AnchorPane prefHeight="486.0" prefWidth="800.0" style="-fx-background-color: transparent;">
+               <children>
+                  <AnchorPane layoutX="170.0" layoutY="104.0" prefHeight="342.0" prefWidth="469.0" style="-fx-background-color: WHITE; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5); -fx-background-radius: 4; -fx-border-radius: 4; -fx-padding: 8;" styleClass="card-white" stylesheets="@../css/custom.css">
+                     <children>
+                        <ImageView fitHeight="85.0" fitWidth="189.0" layoutX="150.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/logo_KOLLERE.png" />
+                           </image>
+                        </ImageView>
+                        <JFXTextField fx:id="login" focusColor="#999900" labelFloat="true" layoutX="75.0" layoutY="135.0" maxWidth="316.0" minWidth="233.0" prefHeight="31.0" prefWidth="316.0" promptText="IMEI">
+                           <font>
+                              <Font name="Roboto Medium" size="14.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXPasswordField fx:id="motdp" focusColor="#999900" labelFloat="true" layoutX="77.0" layoutY="205.0" maxWidth="316.0" minWidth="235.0" prefHeight="31.0" prefWidth="316.0" promptText="PIN">
+                           <font>
+                              <Font name="Roboto Medium" size="14.0" />
+                           </font>
+                        </JFXPasswordField>
+                        <FontAwesomeIconView glyphName="USER" layoutX="44.0" layoutY="158.0" size="25" />
+                        <FontAwesomeIconView glyphName="KEY" layoutX="44.0" layoutY="225.0" size="25" />
+                        <Label fx:id="erreurlogin" layoutX="83.0" layoutY="246.0" prefHeight="32.0" prefWidth="361.0" textAlignment="CENTER" textFill="#dd2c00">
+                           <font>
+                              <Font name="Times New Roman Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <JFXSpinner fx:id="loadercnx" layoutX="208.0" layoutY="259.0" prefHeight="31.0" prefWidth="50.0" visible="false" />
+                        <JFXButton buttonType="RAISED" layoutX="69.0" layoutY="290.0" onAction="#connexion" prefHeight="31.0" prefWidth="132.0" style="-fx-background-color: #999900;" text="Connecter" textFill="#fffefe">
+                           <font>
+                              <Font name="Times New Roman Bold" size="16.0" />
+                           </font>
+                           <graphic>
+                              <MaterialDesignIconView fill="WHITE" glyphName="LAUNCH" size="20" wrappingWidth="33.0" />
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton fx:id="btnexit" buttonType="RAISED" layoutX="292.0" layoutY="290.0" onAction="#quitter" prefHeight="31.0" prefWidth="132.0" style="-fx-background-color: #999900; -fx-border-radius: 20px;" text="Quitter" textFill="#fffefe">
+                           <font>
+                              <Font name="Times New Roman Bold" size="16.0" />
+                           </font>
+                           <graphic>
+                              <MaterialDesignIconView fill="WHITE" glyphName="POWER" size="20" wrappingWidth="33.0" />
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" layoutX="292.0" layoutY="123.0" prefHeight="25.0" prefWidth="114.0" text="w+++" textFill="#ae2424" wrapText="true" />
+                     </children>
+                  </AnchorPane>
+                  <VBox layoutX="112.0" layoutY="24.0" prefHeight="69.0" prefWidth="585.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="37.0" prefWidth="570.0" text="CONNEXION" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="Times New Roman Bold" size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <Label alignment="CENTER" layoutX="109.0" layoutY="483.0" prefHeight="32.0" prefWidth="582.0" text="Profitez dès maintenant de Kolleré le meilleur programme de fidelité du Sénégal." textAlignment="CENTER" textFill="#999900" underline="true">
+                     <font>
+                        <Font name="Times New Roman" size="17.0" />
+                     </font>
+                  </Label>
+                  <JFXButton fx:id="reducebtn" alignment="CENTER_RIGHT" layoutX="748.0" layoutY="2.0" onAction="#reduire">
+                     <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="MINUS" />
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

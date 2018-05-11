@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="727.0" prefWidth="1065.0" style="-fx-background-color: #80DEEA;" stylesheets="@../css/custom.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.DashBoardController">
+   <left>
+      <JFXDrawer fx:id="drawer" defaultDrawerSize="300.0" prefHeight="655.0" prefWidth="209.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox fx:id="menu" prefHeight="655.0" prefWidth="216.0" style="-fx-background-color: #80DEEA; -fx-border-color: #999900;">
+               <children>
+                  <ImageView fitHeight="111.0" fitWidth="196.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/logo_KOLLERE.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="20.0" right="20.0" top="10.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Separator opacity="0.3" prefWidth="200.0" style="-fx-border-color: #999900;" />
+                  <JFXButton fx:id="btnHome1" buttonType="RAISED" layoutX="36.0" layoutY="149.0" onAction="#loadthome" prefHeight="42.0" prefWidth="172.0" ripplerFill="#81d4fa" style="-fx-background-radius: 4; -fx-background-color: #999900; -fx-alignment: CENTER_LEFT;" text="Acceuil" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="17.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="HOME" size="24" wrappingWidth="43.0" />
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets top="25.0" />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets left="25.0" right="25.0" top="25.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <VBox fx:id="overflowContainer" prefHeight="78.0" prefWidth="236.0" styleClass="card-white" stylesheets="@../css/custom.css">
+                     <children>
+                        <JFXButton fx:id="btnLogOut" buttonType="RAISED" onAction="#deconnecter" prefHeight="28.0" prefWidth="160.0" style="-fx-background-color: #999900; -fx-alignement: CENTER_LEFT;" text="Deconnecter" textFill="WHITE">
+                           <font>
+                              <Font name="Times New Roman Bold" size="13.0" />
+                           </font>
+                           <graphic>
+                              <MaterialDesignIconView fill="WHITE" glyphName="LOGOUT" size="16.0" wrappingWidth="36.0" />
+                           </graphic>
+                           <VBox.margin>
+                              <Insets left="30.0" right="20.0" top="10.0" />
+                           </VBox.margin>
+                        </JFXButton>
+                        <JFXButton fx:id="btnExit" buttonType="RAISED" layoutX="40.0" layoutY="10.0" onAction="#exit" prefHeight="20.0" prefWidth="160.0" style="-fx-background-color: #999900; -fx-alignement: CENTER_LEFT;" text="Quitter  " textFill="WHITE">
+                           <font>
+                              <Font name="Times New Roman Bold" size="13.0" />
+                           </font>
+                           <graphic>
+                              <MaterialDesignIconView fill="WHITE" glyphName="POWER" size="16.0" wrappingWidth="36.0" />
+                           </graphic>
+                           <VBox.margin>
+                              <Insets left="30.0" right="20.0" top="10.0" />
+                           </VBox.margin>
+                        </JFXButton>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </VBox>
+                  <JFXButton fx:id="btnHome" buttonType="RAISED" onAction="#loadticket" prefHeight="42.0" prefWidth="172.0" ripplerFill="#81d4fa" style="-fx-background-radius: 4; -fx-background-color: #999900; -fx-alignment: CENTER_LEFT;" text="Ticket" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="17.0" />
+                     </font>
+                     <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="SHOPPING_CART" size="24" wrappingWidth="43.0" />
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets top="25.0" />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets left="25.0" right="25.0" top="25.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="btnCarte" buttonType="RAISED" prefHeight="42.0" prefWidth="171.0" ripplerFill="#81d4fa" style="-fx-background-radius: 4; -fx-background-color: #999900; -fx-alignment: CENTER_LEFT;" text="Carte" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="17.0" />
+                     </font>
+                     <graphic>
+                        <MaterialDesignIconView fill="WHITE" glyphName="CREDIT_CARD" size="24" wrappingWidth="42.99997329711914" />
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets top="25.0" />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets left="25.0" right="25.0" top="25.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="btnWidgets" buttonType="RAISED" onAction="#loadhistory" prefHeight="42.0" prefWidth="169.0" ripplerFill="#81d4fa" style="-fx-background-radius: 4; -fx-background-color: #999900; -fx-alignment: CENTER_LEFT;" text="Historique" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="17.0" />
+                     </font>
+                     <graphic>
+                        <MaterialDesignIconView fill="WHITE" glyphName="HISTORY" size="24" wrappingWidth="27.99997329711914" />
+                     </graphic>
+                     <opaqueInsets>
+                        <Insets top="25.0" />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets left="25.0" right="25.0" top="25.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="btndcnx" buttonType="RAISED" onAction="#deconnecter" prefHeight="42.0" prefWidth="171.0" ripplerFill="#81d4fa" style="-fx-background-radius: 4; -fx-background-color: #999900; -fx-alignment: CENTER_LEFT;" text="Déconnexion" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="17.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets top="25.0" />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets left="25.0" right="25.0" top="25.0" />
+                     </VBox.margin>
+                     <graphic>
+                        <MaterialDesignIconView fill="WHITE" glyphName="EXIT_TO_APP" size="24" />
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="btndcnx1" buttonType="RAISED" onAction="#exit" prefHeight="42.0" prefWidth="171.0" ripplerFill="#81d4fa" style="-fx-background-radius: 4; -fx-background-color: #999900; -fx-alignment: CENTER_LEFT;" text="Quitter" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="17.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets top="25.0" />
+                     </opaqueInsets>
+                     <graphic>
+                        <MaterialDesignIconView fill="WHITE" glyphName="POWER" size="24" />
+                     </graphic>
+                     <VBox.margin>
+                        <Insets left="25.0" right="25.0" top="25.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <VBox fx:id="menuCarte" layoutX="11.0" layoutY="191.0" prefHeight="104.0" prefWidth="236.0" styleClass="card-white" stylesheets="@../css/custom.css">
+                     <children>
+                        <JFXButton buttonType="RAISED" onAction="#loadInscription" prefHeight="38.0" prefWidth="160.0" style="-fx-background-color: #999900; -fx-alignement: CENTER_LEFT;" text="Inscription" textFill="WHITE">
+                           <font>
+                              <Font name="Times New Roman Bold" size="13.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" right="20.0" top="10.0" />
+                           </VBox.margin>
+                           <graphic>
+                              <FontAwesomeIconView fill="WHITE" glyphName="USER_PLUS" size="16" />
+                           </graphic>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" layoutX="40.0" layoutY="10.0" onAction="#loadAchat" prefHeight="36.0" prefWidth="160.0" style="-fx-background-color: #999900; -fx-alignement: CENTER_LEFT;" text="Achat" textFill="WHITE">
+                           <font>
+                              <Font name="Times New Roman Bold" size="13.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" right="20.0" top="10.0" />
+                           </VBox.margin>
+                           <graphic>
+                              <FontAwesomeIconView fill="WHITE" glyphName="SHOPPING_CART" size="16" wrappingWidth="49.85714244842529" />
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children></JFXDrawer>
+   </left>
+   <top>
+      <HBox prefHeight="72.0" prefWidth="600.0" style="-fx-border-color: #999900;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="70.0" prefWidth="1065.0">
+               <children>
+                  <Label fx:id="solde" layoutX="666.0" layoutY="8.0" prefHeight="55.0" prefWidth="365.0" style="-fx-border-radius: 50px; -fx-border-color: #999900;" textFill="#880e4f">
+                     <font>
+                        <Font name="Times New Roman Bold" size="16.0" />
+                     </font>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="titreboutique" layoutX="255.0" layoutY="6.0" prefHeight="59.0" prefWidth="471.0" textAlignment="CENTER" textFill="#999900">
+                     <font>
+                        <Font name="Times New Roman Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <HBox fx:id="toolBarRight" layoutX="14.0" layoutY="15.0" prefHeight="40.0" prefWidth="26.0">
+                     <children>
+                        <Label fx:id="lblMenu" prefHeight="38.0" prefWidth="21.0">
+                           <graphic>
+                              <MaterialDesignIconView fill="#999900" glyphName="DOTS_VERTICAL" size="22" />
+                           </graphic>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Label fx:id="agentname" layoutX="49.0" layoutY="12.0" prefHeight="39.0" prefWidth="195.0">
+                     <font>
+                        <Font name="Times New Roman Bold" size="17.0" />
+                     </font>
+                  </Label>
+                  <JFXButton fx:id="btnminimize" alignment="CENTER" layoutX="1025.0" layoutY="6.0" onAction="#reduire" prefHeight="32.0" prefWidth="37.0">
+                     <graphic>
+                        <FontAwesomeIconView fill="#999900" glyphName="MINUS" />
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="665.0" prefWidth="1065.0">
+               <children>
+                  <VBox fx:id="mainvbox" prefHeight="655.0" prefWidth="852.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin></VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

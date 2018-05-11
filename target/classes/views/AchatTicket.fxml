@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" stylesheets="@../css/custom.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="modules.ticket.TicketController">
+   <children>
+      <StackPane prefHeight="680.0" prefWidth="906.0">
+         <children>
+            <AnchorPane fx:id="holderAnchor" prefHeight="680.0" prefWidth="897.0">
+               <children>
+                  <AnchorPane layoutX="59.0" layoutY="47.0" prefHeight="106.0" prefWidth="791.0" style="-fx-background-color: rgb(0, 115, 183,0.6); -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5); -fx-background-radius: 5;" AnchorPane.bottomAnchor="484.0" AnchorPane.topAnchor="90.0">
+                     <children>
+                        <Pane layoutX="22.0" layoutY="-36.0" prefHeight="106.0" prefWidth="115.0" style="-fx-background-color: #0073B7; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5); -fx-background-radius: 4;">
+                           <children>
+                              <ImageView fitHeight="85.0" fitWidth="92.0" layoutX="15.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../images/images%20(1).jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <JFXTextField fx:id="codevalidation" focusColor="#999900" labelFloat="true" layoutX="214.0" layoutY="38.0" maxWidth="214.0" minWidth="214.0" prefHeight="31.0" prefWidth="214.0" promptText="Code Ticket" unFocusColor="#999900">
+                           <font>
+                              <Font name="Roboto Black" size="13.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXButton buttonType="RAISED" layoutX="494.0" layoutY="55.0" onAction="#sendcode" prefHeight="30.0" prefWidth="101.0" style="-fx-background-color: #999900;" text="Valider" textFill="#fffefe">
+                           <font>
+                              <Font name="Times New Roman Bold" size="16.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView fill="WHITE" glyphName="CHECK_SQUARE_ALT" size="14.0" wrappingWidth="19.0" />
+                           </graphic>
+                        </JFXButton>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </AnchorPane>
+                  <Pane fx:id="detailsContentPane" layoutX="54.0" layoutY="291.0" prefHeight="296.0" prefWidth="791.0" styleClass="card-white" visible="false">
+                     <children>
+                        <Separator layoutY="59.0" prefHeight="16.0" prefWidth="791.0" />
+                        <Separator layoutY="125.0" prefHeight="8.0" prefWidth="791.0" />
+                        <Label fx:id="item" layoutX="104.0" layoutY="42.0" prefHeight="25.0" prefWidth="239.0" text="ITEM" textFill="#999900">
+                           <font>
+                              <Font name="Times New Roman Bold" size="17.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                        </Label>
+                        <Label fx:id="prixshop" layoutX="101.0" layoutY="108.0" prefHeight="20.0" prefWidth="239.0" textFill="#999900">
+                           <font>
+                              <Font name="Times New Roman Bold" size="17.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                        </Label>
+                        <Label fx:id="valitem" layoutX="464.0" layoutY="42.0" prefHeight="25.0" prefWidth="326.0" text="Label" textFill="#999900">
+                           <font>
+                              <Font name="Times New Roman Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="valprixshop" layoutX="464.0" layoutY="104.0" prefHeight="25.0" prefWidth="326.0" text="Label" textFill="#999900">
+                           <font>
+                              <Font name="Times New Roman Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <JFXButton buttonType="RAISED" layoutX="659.0" layoutY="244.0" onAction="#acheter" prefHeight="30.0" prefWidth="101.0" style="-fx-background-color: #999900;" text="Acheter" textFill="#fffefe">
+                           <font>
+                              <Font name="Times New Roman Bold" size="16.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView fill="WHITE" glyphName="SHOPPING_CART" size="14.0" wrappingWidth="19.0" />
+                           </graphic>
+                        </JFXButton>
+                        <Separator layoutY="182.0" prefHeight="8.0" prefWidth="791.0" />
+                        <Label fx:id="prixk" layoutX="101.0" layoutY="165.0" prefHeight="20.0" prefWidth="239.0" text="PRIX KOLLERE" textFill="#999900">
+                           <font>
+                              <Font name="Times New Roman Bold" size="17.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                        </Label>
+                        <Label fx:id="valprixk" layoutX="464.0" layoutY="161.0" prefHeight="25.0" prefWidth="326.0" text="Label" textFill="#999900">
+                           <font>
+                              <Font name="Times New Roman Bold" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Label fx:id="erreur" layoutX="155.0" layoutY="223.0" prefHeight="31.0" prefWidth="589.0" text="Label" textAlignment="CENTER" textFill="#dd2c00" visible="false">
+                     <font>
+                        <Font name="Times New Roman Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Pane fx:id="titlePane" layoutX="85.0" layoutY="254.0" prefHeight="51.0" prefWidth="186.0" style="-fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5); -fx-background-radius: 4; -fx-background-color: #999900;" visible="false">
+                     <children>
+                        <Label layoutX="29.0" layoutY="8.0" prefHeight="35.0" prefWidth="129.0" text="Details du ticket" textFill="WHITE">
+                           <font>
+                              <Font name="Times New Roman Bold" size="17.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="panierContain" layoutX="47.0" layoutY="230.0" prefHeight="423.0" prefWidth="836.0" visible="false">
+                     <children>
+                        <TableView fx:id="tableitems" layoutX="27.0" prefHeight="274.0" prefWidth="742.0">
+                           <columns>
+                              <TableColumn fx:id="produit" editable="false" prefWidth="217.0" text="ITEM" />
+                              <TableColumn fx:id="prix_boutique" editable="false" prefWidth="148.0" text="PRIX BOUTIQUE" />
+                              <TableColumn fx:id="prix_kollere" editable="false" prefWidth="187.0" text="PRIX KOLLERE" />
+                              <TableColumn fx:id="quantite" editable="false" prefWidth="144.0" text="QUANTITE" />
+                           </columns>
+                        </TableView>
+                        <JFXButton buttonType="RAISED" layoutX="608.0" layoutY="384.0" onAction="#acheter" prefHeight="30.0" prefWidth="101.0" style="-fx-background-color: #999900;" text="Acheter" textFill="#fffefe">
+                           <font>
+                              <Font name="Times New Roman Bold" size="16.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIconView fill="WHITE" glyphName="SHOPPING_CART" size="14.0" wrappingWidth="19.0" />
+                           </graphic>
+                        </JFXButton>
+                        <Pane fx:id="detailsContentPane1" layoutX="44.0" layoutY="299.0" prefHeight="72.0" prefWidth="665.0" styleClass="card-white">
+                           <children>
+                              <Separator layoutY="25.0" prefHeight="16.0" prefWidth="676.0" />
+                              <Label fx:id="lbprixtbtique" layoutX="104.0" layoutY="8.0" prefHeight="25.0" prefWidth="239.0" textFill="#999900">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="17.0" />
+                                 </font>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="20.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="prixtbtique" layoutX="464.0" layoutY="8.0" prefHeight="25.0" prefWidth="214.0" text="Label" textFill="#999900">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="17.0" />
+                                 </font>
+                              </Label>
+                              <Separator layoutY="57.0" prefHeight="16.0" prefWidth="676.0" />
+                              <Label fx:id="prixk1" layoutX="101.0" layoutY="48.0" prefHeight="20.0" prefWidth="239.0" text="PRIX TOTAL KOLLERE" textFill="#999900">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="17.0" />
+                                 </font>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="20.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="prixtkollere" layoutX="464.0" layoutY="44.0" prefHeight="25.0" prefWidth="214.0" text="Label" textFill="#999900">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="17.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

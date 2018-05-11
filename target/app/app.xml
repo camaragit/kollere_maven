@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Application ts="1526033523223" uri="http://212.71.244.7/deploy/" launch="no.tornado.FxlDemo">
+    <lib file="controlsfx.jar" checksum="901192049" size="985420"/>
+    <lib file="fontawesomefx.jar" checksum="2474977539" size="571068"/>
+    <lib file="jackson-core-asl.jar" checksum="263957213" size="228286"/>
+    <lib file="jackson-jaxrs.jar" checksum="979438282" size="18355"/>
+    <lib file="jackson-mapper-asl.jar" checksum="3293415624" size="764075"/>
+    <lib file="jersey-bundle.jar" checksum="3616936487" size="1395596"/>
+    <lib file="jfoenix.jar" checksum="806980634" size="2312030"/>
+    <lib file="jsr311-api.jar" checksum="3748307125" size="46367"/>
+    <lib file="kollere_maven-1.0-SNAPSHOT.jar" checksum="803358524" size="1380568"/>
+    <updateText>Updating...</updateText>
+    <updateLabelStyle>-fx-font-weight: bold;</updateLabelStyle>
+    <progressBarStyle>-fx-pref-width: 200;</progressBarStyle>
+    <wrapperStyle>-fx-spacing: 10; -fx-padding: 25;</wrapperStyle>
+    <parameters>--myOption=myValue --myOtherOption=myOtherValue</parameters>
+    <cacheDir>USERLIB/FxlDemo</cacheDir>
+    <acceptDowngrade>false</acceptDowngrade>
+    <lingeringUpdateScreen>false</lingeringUpdateScreen>
+</Application>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="panea" prefHeight="785.0" prefWidth="886.0" style="-fx-background-radius: 5px; -fx-background-color: #80DEEA;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Separator layoutY="339.0" prefHeight="116.0" prefWidth="886.0" />
+      <ImageView fitHeight="319.0" fitWidth="495.0" layoutX="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/monde%20d'avantages%202.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="291.0" fitWidth="412.0" layoutX="417.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/une%20seul%20carte%20pour%20tous.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="14.0" layoutY="391.0" prefHeight="259.0" prefWidth="833.0">
+         <children>
+            <Label layoutX="17.0" layoutY="35.0" prefHeight="40.0" prefWidth="682.0" text="Kolleré" textFill="#999900">
+               <font>
+                  <Font name="Times New Roman Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="137.0" prefHeight="116.0" prefWidth="810.0" text="Offrez à vos clients de maniere simple et éfficace un programme de fidelisation de qualité ." textAlignment="JUSTIFY" textFill="#bf360c" wrapText="true">
+               <font>
+                  <Font name="Times New Roman" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="20.0" layoutY="109.0" prefHeight="53.0" prefWidth="682.0" text="La fidélisation passe à l'ère du numérique.">
+               <font>
+                  <Font name="Times New Roman Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</Pane>

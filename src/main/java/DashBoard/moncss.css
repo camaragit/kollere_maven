@@ -1,0 +1,15 @@
+.button:hover{
+    -fx-background-color: aqua;
+    -fx-text-fill: #ffffff;
+    -fx-text-alignment: center;
+}
+
+.jfx-hamburger-icon StackPane
+{
+    -fx-background-color: #999900;
+
+}
+.error{
+    -fx-background-color: red;
+    color:red;
+}
