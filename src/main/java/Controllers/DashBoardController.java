@@ -35,6 +35,7 @@ import java.util.ResourceBundle;
 
 
 public class DashBoardController implements Initializable{
+   // System.out.println("")
     @FXML
     private HBox mainhbox;
     @FXML
@@ -170,6 +171,7 @@ public VBox getMainvbox(){
 
     @Override
 public void initialize(URL url, ResourceBundle resourceBundle)   {
+
     manager = new JFXDepthManager();
     solde.textProperty().bind(KollereUtils.SOLDE);
     titreboutique.textProperty().bind(KollereUtils.TITRE_BOUTIQUE);
@@ -217,6 +219,7 @@ public void initialize(URL url, ResourceBundle resourceBundle)   {
         achat = loaderachat.load();
         achatController = (AchatController) loaderachat.getController();
         KollereUtils.IDCARTE="";
+
 
         this.setNode(mp);
         //mainvbox.getChildren().add(mp);

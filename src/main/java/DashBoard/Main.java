@@ -12,7 +12,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-
+        System.out.println("repertoire ===>"+System.getProperty("user.dir")+"/src/resources/images");
         Parent root = FXMLLoader.load(getClass().getResource("/views/login.fxml"));
         primaryStage.setTitle("KOLLERE");
         //primaryStage.getIcons().add(new Image("/images/logo_KOLLERE.png"));

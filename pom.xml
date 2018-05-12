@@ -51,13 +51,13 @@
     </dependencies>
     <properties>
         <!-- Installer Filename without suffix -->
-        <app.filename>FxlDemo</app.filename>
+        <app.filename>Main</app.filename>
 
         <!-- The JavaFX Application class name -->
-        <app.mainClass>no.tornado.FxlDemo</app.mainClass>
+        <app.mainClass>DashBoard.Main</app.mainClass>
 
         <!-- Optional override to specify where the cached files are stored. Default is current working directory -->
-        <app.cacheDir>USERLIB/FxlDemo</app.cacheDir>
+        <app.cacheDir>USERLIB/Kollere_maven</app.cacheDir>
 
         <!-- Optional parameters to the application, will be embedded in the launcher and can be overriden on the command line -->
         <app.parameters>--myOption=myValue --myOtherOption=myOtherValue</app.parameters>
