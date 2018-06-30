@@ -208,8 +208,14 @@ public class InscriptionController implements Initializable {
         txtEmail.setText("");
         txtLname.setText("");
         txtFname.setText("");
-
-
+        warnmail.setVisible(false);
+        warnname.setVisible(false);
+        warntel.setVisible(false);
+        warpnom.setVisible(false);
+        lmail.setText("");
+        lname.setText("");
+        lpname.setText("");
+        ltel.setText("");
 
     }
 

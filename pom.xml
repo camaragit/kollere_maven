@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>groupId</groupId>
-    <artifactId>kollere_maven</artifactId>
+    <artifactId>kollere</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.jfoenix/jfoenix -->
@@ -47,6 +47,13 @@
             <artifactId>controlsfx</artifactId>
             <version>8.40.11</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-io -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+
 
     </dependencies>
     <properties>
@@ -57,7 +64,7 @@
         <app.mainClass>DashBoard.Main</app.mainClass>
 
         <!-- Optional override to specify where the cached files are stored. Default is current working directory -->
-        <app.cacheDir>USERLIB/Kollere_maven</app.cacheDir>
+        <app.cacheDir>USERLIB/Kollere</app.cacheDir>
 
         <!-- Optional parameters to the application, will be embedded in the launcher and can be overriden on the command line -->
         <app.parameters>--myOption=myValue --myOtherOption=myOtherValue</app.parameters>
@@ -186,9 +193,10 @@
                                 <argument>-title</argument>
                                 <argument>${project.name}</argument>
                                 <argument>-vendor</argument>
-
+                                <argument>${app.vendor}</argument>
                                 <argument>-BappVersion=${app.version}</argument>
                                 <argument>-Bidentifier=${project.groupId}.${project.artifactId}</argument>
+                                <argument>-Bicon=src/main/resources/images/Kollere.ico</argument>
                             </arguments>
                         </configuration>
                     </execution>
@@ -204,6 +212,26 @@
                                 <argument>-r</argument>
                                 <argument>target/app/</argument>
                                 <argument>${app.deploy.target}</argument>
+                            </arguments>
+                        </configuration>
+                    </execution>
+                    <!-- Here you already have executions for
+                    "create-manifest" and "embed-manifest-in-launcher" -->
+                    <execution>
+                        <id>embed-custom-ui-in-launcher</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                        <configuration>
+                            <executable>jar</executable>
+                            <workingDirectory>${app.dir}</workingDirectory>
+                            <arguments>
+                                <argument>uf</argument>
+                                <argument>fxlauncher.jar</argument>
+                                <argument>-C</argument>
+                                <argument>${project.basedir}/../fxlauncher-custom-ui/target/classes</argument>
+                                <argument>.</argument>
                             </arguments>
                         </configuration>
                     </execution>

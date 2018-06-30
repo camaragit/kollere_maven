@@ -22,6 +22,9 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
 import modules.carte.achat.AchatController;
+import modules.carte.inscription.InscriptionController;
+import modules.historique.HistoryController;
+import modules.ticket.TicketController;
 import org.codehaus.jackson.JsonNode;
 import org.codehaus.jackson.map.ObjectMapper;
 import utils.KollereUtils;
@@ -87,7 +90,9 @@ int niv=5;
     AnchorPane inscription;
     AnchorPane achat;
     AchatController achatController;
-
+    TicketController ticketController;
+    InscriptionController inscriptionController;
+    HistoryController historyController;
 
     @FXML
     private VBox overflowContainer;
@@ -106,7 +111,7 @@ int niv=5;
     @FXML
     void deconnecter(ActionEvent event) throws Exception {
 
-        
+
         killprocess();
 //KollereUtils.getMacadress();
        loadLogin();
@@ -114,14 +119,14 @@ int niv=5;
     }
     @FXML
     void loadticket(ActionEvent event) {
-
+        ticketController.reset();
         killprocess();
         KollereUtils.IDCARTE="";
-      //  System.out.println("cliquéééé");
         setNode(codev);
     }
 @FXML
 void loadhistory(ActionEvent event){
+      historyController.reset();
     System.out.println(Thread.currentThread().getName());
     killprocess();
     KollereUtils.IDCARTE="";
@@ -208,16 +213,19 @@ public void initialize(URL url, ResourceBundle resourceBundle)   {
         //VBox vBox= FXMLLoader.load(getClass().getResource("menu.fxml"));
        // drawer.setSidePane(vBox);
         FXMLLoader loadermain =new FXMLLoader();
-        FXMLLoader loaderticket =new FXMLLoader();
-        FXMLLoader loaderhisto =new FXMLLoader();
-        FXMLLoader loaderins =new FXMLLoader();
+        FXMLLoader loaderticket =new FXMLLoader(getClass().getResource("/views/AchatTicket.fxml"));
+        FXMLLoader loaderhisto =new FXMLLoader(getClass().getResource("/views/history.fxml"));
+        FXMLLoader loaderins =new FXMLLoader(getClass().getResource("/views/inscription.fxml"));
         FXMLLoader loaderachat =new FXMLLoader(getClass().getResource("/views/achat.fxml"));
         mp =  loadermain.load(getClass().getResource("/views/main.fxml"));
-        codev =  loaderticket.load(getClass().getResource("/views/AchatTicket.fxml"));
-        historique = loaderhisto.load(getClass().getResource("/views/history.fxml"));
-        inscription = loaderins.load(getClass().getResource("/views/inscription.fxml"));
+        codev =  loaderticket.load();
+        historique = loaderhisto.load();
+        inscription = loaderins.load();
         achat = loaderachat.load();
         achatController = (AchatController) loaderachat.getController();
+        ticketController = (TicketController) loaderticket.getController();
+        inscriptionController = (InscriptionController) loaderins.getController();
+        historyController = (HistoryController) loaderhisto.getController();
         KollereUtils.IDCARTE="";
 
 
@@ -239,6 +247,7 @@ public void initialize(URL url, ResourceBundle resourceBundle)   {
 }
     @FXML
     void loadAchat(ActionEvent event) {
+        KollereUtils.CODEPANIER = 0;
         System.out.println(Thread.currentThread().getName());
             killprocess();
             KollereUtils.READ =true;
@@ -248,11 +257,11 @@ public void initialize(URL url, ResourceBundle resourceBundle)   {
 
 
         ObjectMapper mapper = new ObjectMapper();
-        ObservableList<Ticket> lti = FXCollections.observableArrayList();
+        ObservableList<String> lti = FXCollections.observableArrayList();
 
         String url = null;
         try {
-            url = "http://services.ajit.sn/ws/resto/listitemsresto?commerce="+ URLEncoder.encode(KollereUtils.TITRE_BOUTIQUE.getValue(), "UTF-8");
+            url = "http://services.ajit.sn/ws/resto/listfamillescommerce?commerce="+URLEncoder.encode(KollereUtils.TITRE_BOUTIQUE.getValue(), "UTF-8");
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
@@ -267,10 +276,11 @@ public void initialize(URL url, ResourceBundle resourceBundle)   {
                 for(int i=0;i< t;i++)
                 {
                     JsonNode val= actualObj.get(i);
+                    lti.add(actualObj.get(i).asText());
 
-                    System.out.println(val.toString());
-                    if(!val.get("item").asText().equals(""))
-                        lti.add(new Ticket(val.get("item").asText(),val.get("voucherid").asText(),val.get("valeurItem").get("prixResto").asText(),val.get("valeurItem").get("prixKollere").asText()));
+                   // System.out.println(val.toString());
+                  //  if(!val.get("item").asText().equals(""))
+                  //      lti.add(new Ticket(val.get("item").asText(),val.get("voucherid").asText(),val.get("valeurItem").get("prixResto").asText(),val.get("valeurItem").get("prixKollere").asText()));
                 }
 
 
@@ -278,7 +288,7 @@ public void initialize(URL url, ResourceBundle resourceBundle)   {
                 setNode(achat);
             }
             else KollereUtils.showAlert("Impossible de charger la liste des items","Chargement Item","erreur");
-
+        setNode(achat);
 
     }
 
@@ -291,12 +301,11 @@ public void initialize(URL url, ResourceBundle resourceBundle)   {
         t.start();
         System.out.println("DANS INSCRIPTIP");
         KollereUtils.IDCARTE="";
-
+        inscriptionController.reset();
         setNode(inscription);
 
     }
     @FXML
-
     public void valider(){
      //   System.out.println("Vous avez saisi comme login ===>" +login.getText()+"\nEt comme mot de passe====>"+mdp.getText());
 
@@ -344,7 +353,6 @@ public void initialize(URL url, ResourceBundle resourceBundle)   {
     public void killprocess() {
         if (t != null && t.getState().name().equals("RUNNABLE")) {
             t.interrupt();
-
         }
         KollereUtils.READ = false;
         KollereUtils.IDCARTE ="";

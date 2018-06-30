@@ -81,20 +81,18 @@ public class TicketController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
     KollereUtils.TICKET="";
-   // KollereUtils.SOLDE.setValue("BLABLALALAL");
         a.setTitle("Paiement");
         a.setHeaderText("");
         Stage stage = (Stage) a.getDialogPane().getScene().getWindow();
         stage.getIcons().add(new Image(KollereUtils.IMAGE_LOC));
         System.out.println("controlleur Ticket");
-
     }
 
     @FXML
     void sendcode(ActionEvent event) {
-
         KollereUtils.TICKET="";
         detailsContentPane.setVisible(false);
+        panierContain.setVisible(false);
         titlePane.setVisible(false);
         erreur.setText("");
         if(!codevalidation.getText().equals(""))
@@ -269,6 +267,7 @@ public class TicketController implements Initializable {
 
     public void reset()
     {
+      System.out.println("RESET TICKET");
         detailsContentPane.setVisible(false);
         panierContain.setVisible(false);
         titlePane.setVisible(false);

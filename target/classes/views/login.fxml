@@ -34,12 +34,12 @@
                               <Image url="@../images/logo_KOLLERE.png" />
                            </image>
                         </ImageView>
-                        <JFXTextField fx:id="login" focusColor="#999900" labelFloat="true" layoutX="75.0" layoutY="135.0" maxWidth="316.0" minWidth="233.0" prefHeight="31.0" prefWidth="316.0" promptText="IMEI">
+                        <JFXTextField fx:id="login" focusColor="#999900" labelFloat="true" layoutX="75.0" layoutY="135.0" maxWidth="316.0" minWidth="233.0" prefHeight="31.0" prefWidth="316.0" promptText="Login">
                            <font>
                               <Font name="Roboto Medium" size="14.0" />
                            </font>
                         </JFXTextField>
-                        <JFXPasswordField fx:id="motdp" focusColor="#999900" labelFloat="true" layoutX="77.0" layoutY="205.0" maxWidth="316.0" minWidth="235.0" prefHeight="31.0" prefWidth="316.0" promptText="PIN">
+                        <JFXPasswordField fx:id="motdp" focusColor="#999900" labelFloat="true" layoutX="77.0" layoutY="205.0" maxWidth="316.0" minWidth="235.0" prefHeight="31.0" prefWidth="316.0" promptText="Mot de passe">
                            <font>
                               <Font name="Roboto Medium" size="14.0" />
                            </font>
@@ -68,7 +68,6 @@
                               <MaterialDesignIconView fill="WHITE" glyphName="POWER" size="20" wrappingWidth="33.0" />
                            </graphic>
                         </JFXButton>
-                        <JFXButton buttonType="RAISED" layoutX="292.0" layoutY="123.0" prefHeight="25.0" prefWidth="114.0" text="w+++" textFill="#ae2424" wrapText="true" />
                      </children>
                   </AnchorPane>
                   <VBox layoutX="112.0" layoutY="24.0" prefHeight="69.0" prefWidth="585.0">
@@ -80,7 +79,7 @@
                         </Label>
                      </children>
                   </VBox>
-                  <Label alignment="CENTER" layoutX="109.0" layoutY="483.0" prefHeight="32.0" prefWidth="582.0" text="Profitez dès maintenant de Kolleré le meilleur programme de fidelité du Sénégal." textAlignment="CENTER" textFill="#999900" underline="true">
+                  <Label alignment="CENTER" layoutX="109.0" layoutY="464.0" prefHeight="32.0" prefWidth="582.0" text="Profitez dès maintenant de Kolleré le meilleur programme de fidelité du Sénégal." textAlignment="CENTER" textFill="#999900" underline="true">
                      <font>
                         <Font name="Times New Roman" size="17.0" />
                      </font>
@@ -90,6 +89,11 @@
                         <FontAwesomeIconView fill="WHITE" glyphName="MINUS" />
                      </graphic>
                   </JFXButton>
+                  <Label alignment="CENTER" layoutX="116.0" layoutY="504.0" prefHeight="32.0" prefWidth="582.0" text="Pour assistance contactez :  33 950 29 74 / 77 415 31 99" textAlignment="CENTER" textFill="#999900" underline="true">
+                     <font>
+                        <Font name="Times New Roman" size="17.0" />
+                     </font>
+                  </Label>
                </children>
             </AnchorPane>
          </children>

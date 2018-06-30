@@ -1,10 +1,347 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="commit">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/3 CHOCOLATS.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/ANTILLAIS.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/ASSIETTES.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/AUTRES.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/BOISSONS CHAUDES.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/BOISSONS.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/BURGERS.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/CAPRICIEUSE.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/CARREMENT CHOCOLAT.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/CHAWARMA.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/COUPES.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/CREPES.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/DESSERTS.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/ENTREMET CHOCOLAT.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/FORET NOIRE.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/FRAISIER(selon la saison).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/FRAISIER.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/GALETTES.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/GATEAU THEME AU CHOIX.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/GATEAUX.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/GLACES.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/MILK SHAKES.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/MILLE FEUILLE (nature et fraise).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/MILLE FEUILLE.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/MOKA.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/MOUSSE AU CHOCOLAT.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/NORVEGIENNE.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/OMELETTES.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/OPERA.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/PANINIS.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/PETIT DEJ.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/PETIT DEJEUNER.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/PIZZAS.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/PLAISIR CHOCOLAT.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/PLAT.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/PLATS LOCAUX.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/SALADES.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/SALES.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/SANDWICHES.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/TARTE CITRON.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/TARTE FRAISE.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/TARTE POMME.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/TARTES.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/TROIS CHOCOLATS.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/TUITI FRUITI.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/TUTTI FRUTTI.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/VANILLE CHOCOLAT.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/VANILLE COCO.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/VANILLE FRAISE.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/images/familles/VIENNOISERIE.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/views/achat_new.fxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/views/achat_old.fxml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/kollere_maven.iml" afterPath="$PROJECT_DIR$/kollere_maven.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controllers/DashBoardController.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/DashBoardController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DashBoard/Main.java" afterPath="$PROJECT_DIR$/src/main/java/DashBoard/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modules/carte/achat/AchatController.java" afterPath="$PROJECT_DIR$/src/main/java/modules/carte/achat/AchatController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modules/carte/inscription/InscriptionController.java" afterPath="$PROJECT_DIR$/src/main/java/modules/carte/inscription/InscriptionController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modules/historique/HistoryController.java" afterPath="$PROJECT_DIR$/src/main/java/modules/historique/HistoryController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modules/ticket/TicketController.java" afterPath="$PROJECT_DIR$/src/main/java/modules/ticket/TicketController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/KollereUtils.java" afterPath="$PROJECT_DIR$/src/main/java/utils/KollereUtils.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/AchatTicket.fxml" afterPath="$PROJECT_DIR$/src/main/resources/views/AchatTicket.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/achat.fxml" afterPath="$PROJECT_DIR$/src/main/resources/views/achat.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/history.fxml" afterPath="$PROJECT_DIR$/src/main/resources/views/history.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/views/login.fxml" afterPath="$PROJECT_DIR$/src/main/resources/views/login.fxml" />
+      <change beforePath="$PROJECT_DIR$/target/app/app.xml" afterPath="$PROJECT_DIR$/target/app/app.xml" />
+      <change beforePath="$PROJECT_DIR$/target/app/fxlauncher.jar" afterPath="$PROJECT_DIR$/target/app/fxlauncher.jar" />
+      <change beforePath="$PROJECT_DIR$/target/app/kollere_maven-1.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/app/new 10.txt" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/Controllers/DashBoardController.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/DashBoardController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/DashBoard/Main.class" afterPath="$PROJECT_DIR$/target/classes/DashBoard/Main.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modules/carte/achat/AchatController.class" afterPath="$PROJECT_DIR$/target/classes/modules/carte/achat/AchatController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modules/carte/inscription/InscriptionController.class" afterPath="$PROJECT_DIR$/target/classes/modules/carte/inscription/InscriptionController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modules/historique/HistoryController.class" afterPath="$PROJECT_DIR$/target/classes/modules/historique/HistoryController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/modules/ticket/TicketController.class" afterPath="$PROJECT_DIR$/target/classes/modules/ticket/TicketController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/KollereUtils$1.class" afterPath="$PROJECT_DIR$/target/classes/utils/KollereUtils$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/KollereUtils$2.class" afterPath="$PROJECT_DIR$/target/classes/utils/KollereUtils$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/KollereUtils$3.class" afterPath="$PROJECT_DIR$/target/classes/utils/KollereUtils$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/KollereUtils$4.class" afterPath="$PROJECT_DIR$/target/classes/utils/KollereUtils$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/KollereUtils$5.class" afterPath="$PROJECT_DIR$/target/classes/utils/KollereUtils$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/KollereUtils$6.class" afterPath="$PROJECT_DIR$/target/classes/utils/KollereUtils$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/KollereUtils.class" afterPath="$PROJECT_DIR$/target/classes/utils/KollereUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/AchatTicket.fxml" afterPath="$PROJECT_DIR$/target/classes/views/AchatTicket.fxml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/achat.fxml" afterPath="$PROJECT_DIR$/target/classes/views/achat.fxml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/history.fxml" afterPath="$PROJECT_DIR$/target/classes/views/history.fxml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/views/login.fxml" afterPath="$PROJECT_DIR$/target/classes/views/login.fxml" />
+      <change beforePath="$PROJECT_DIR$/target/installer/FxlDemo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/FxlDemo.jnlp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/FxlDemo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/FxlDemo.jnlp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/fxlauncher.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven-1.0.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven-1.0.msi" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-console-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-datetime-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-debug-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-errorhandling-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-file-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-file-l1-2-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-file-l2-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-handle-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-heap-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-interlocked-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-libraryloader-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-localization-l1-2-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-memory-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-namedpipe-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-processenvironment-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-processthreads-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-processthreads-l1-1-1.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-profile-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-rtlsupport-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-string-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-synch-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-synch-l1-2-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-sysinfo-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-timezone-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-core-util-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-crt-conio-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-crt-convert-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-crt-environment-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-crt-filesystem-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-crt-heap-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-crt-locale-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-crt-math-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-crt-multibyte-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-crt-private-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-crt-process-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-crt-runtime-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-crt-stdio-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-crt-string-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-crt-time-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/api-ms-win-crt-utility-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/app/fxlauncher.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/app/kollere_maven.cfg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/kollere_maven.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/kollere_maven.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/msvcp140.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/msvcr100.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/packager.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/COPYRIGHT" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/THIRDPARTYLICENSEREADME-JAVAFX.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/THIRDPARTYLICENSEREADME.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/Welcome.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/JAWTAccessBridge-64.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/JavaAccessBridge-64.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/WindowsAccessBridge-64.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-console-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-datetime-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-debug-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-errorhandling-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-file-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-file-l1-2-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-file-l2-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-handle-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-heap-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-interlocked-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-libraryloader-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-localization-l1-2-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-memory-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-namedpipe-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-processenvironment-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-processthreads-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-processthreads-l1-1-1.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-profile-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-string-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-synch-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-synch-l1-2-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-sysinfo-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-timezone-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-core-util-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-crt-conio-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-crt-convert-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-crt-environment-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-crt-filesystem-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-crt-heap-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-crt-locale-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-crt-math-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-crt-multibyte-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-crt-private-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-crt-process-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-crt-runtime-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-crt-stdio-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-crt-string-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-crt-time-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/api-ms-win-crt-utility-l1-1-0.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/attach.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/awt.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/bci.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/concrt140.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/dcpr.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/decora_sse.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/deploy.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/dt_shmem.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/dt_socket.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/fontmanager.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/fxplugins.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/glass.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/glib-lite.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/gstreamer-lite.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/hprof.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/instrument.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/j2pcsc.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/j2pkcs11.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/jaas_nt.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/java.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/java_crw_demo.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/javafx_font.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/javafx_font_t2k.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/javafx_iio.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/jawt.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/jdwp.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/jfr.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/jfxmedia.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/jfxwebkit.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/jli.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/jpeg.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/jsdt.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/jsound.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/jsoundds.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/kcms.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/lcms.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/management.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/mlib_image.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/msvcp140.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/msvcr100.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/net.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/nio.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/npt.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/plugin2/msvcr100.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/plugin2/npjp2.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/prism_common.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/prism_d3d.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/prism_sw.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/resource.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/sawindbg.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/server/Xusage.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/server/classes.jsa" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/server/jvm.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/splashscreen.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/sunec.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/sunmscapi.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/t2k.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/ucrtbase.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/unpack.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/vcruntime140.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/verify.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/w2k_lsa_auth.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/bin/zip.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/accessibility.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/amd64/jvm.cfg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/calendars.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/charsets.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/classlist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/cmm/CIEXYZ.pf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/cmm/GRAY.pf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/cmm/LINEAR_RGB.pf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/cmm/PYCC.pf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/cmm/sRGB.pf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/content-types.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/currency.data" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/ext/access-bridge-64.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/ext/cldrdata.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/ext/dnsns.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/ext/jaccess.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/ext/jfxrt.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/ext/localedata.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/ext/meta-index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/ext/nashorn.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/ext/sunec.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/ext/sunjce_provider.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/ext/sunmscapi.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/ext/sunpkcs11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/ext/zipfs.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/flavormap.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/fontconfig.bfc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/fontconfig.properties.src" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/fonts/LucidaBrightDemiBold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/fonts/LucidaBrightDemiItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/fonts/LucidaBrightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/fonts/LucidaBrightRegular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/fonts/LucidaSansDemiBold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/fonts/LucidaSansRegular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/fonts/LucidaTypewriterBold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/fonts/LucidaTypewriterRegular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/hijrah-config-umalqura.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/images/cursors/cursors.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/images/cursors/invalid32x32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/images/cursors/win32_CopyDrop32x32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/images/cursors/win32_CopyNoDrop32x32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/images/cursors/win32_LinkDrop32x32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/images/cursors/win32_LinkNoDrop32x32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/images/cursors/win32_MoveDrop32x32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/images/cursors/win32_MoveNoDrop32x32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/javafx.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/javaws.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/jce.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/jfr.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/jfr/default.jfc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/jfr/profile.jfc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/jfxswt.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/jsse.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/jvm.hprof.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/logging.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/management-agent.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/management/jmxremote.access" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/management/jmxremote.password.template" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/management/management.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/management/snmp.acl.template" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/meta-index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/net.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/plugin.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/psfont.properties.ja" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/psfontj2d.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/resources.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/rt.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/security/blacklist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/security/blacklisted.certs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/security/cacerts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/security/java.policy" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/security/java.security" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/security/javaws.policy" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/security/policy/limited/US_export_policy.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/security/policy/limited/local_policy.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/security/policy/unlimited/US_export_policy.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/security/policy/unlimited/local_policy.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/security/trusted.libraries" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/sound.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/tzdb.dat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/runtime/lib/tzmappings" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/ucrtbase.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/bundles/kollere_maven/vcruntime140.dll" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/installer/fxlauncher.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,6 +356,20 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DebuggerManager">
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
@@ -63,57 +414,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="app.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/app/app.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="140" column="31" lean-forward="true" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
+            <state relative-caret-position="17">
+              <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="30" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/views/main.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DashBoardController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/DashBoardController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2346">
-              <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/modules/login/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="57" column="35" lean-forward="false" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DashBoard/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="14" column="98" lean-forward="false" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -122,38 +428,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>popupc</find>
-      <find>setS</find>
-      <find>popup</find>
-      <find>jfo</find>
-      <find>javax</find>
-      <find>mainvbox</find>
-      <find>setNode</find>
-      <find>cach</find>
-      <find>org.codehaus.mojo:exec-maven-plugin:1.4.0:exec</find>
-      <find>127</find>
-      <find>app.deploy.target</find>
-      <find>javapackager</find>
-      <find>outdir</find>
-      <find>installerdir</find>
-      <find>filename</find>
-      <find>dir</find>
-      <find>root</find>
-      <find>scp</find>
-      <find>21</find>
-      <find>deploy</find>
-      <find>USERLIB</find>
-      <find>cacheDir</find>
-      <find>--cache-dir</find>
-      <find>srcdir</find>
-      <find>project</find>
-      <find>app</find>
-      <find>Bi</find>
-      <find>main.fxml</find>
-      <find>ini</find>
+      <find>quantitetxt.</find>
+      <find>ajouter</find>
+      <find>thr</find>
+      <find>lectureCarte</find>
+      <find>codev</find>
+      <find>inscription</find>
+      <find>AchatController</find>
+      <find>list_achats</find>
+      <find>loaderachat</find>
+      <find>loaderticket</find>
+      <find>loada</find>
+      <find>loadachat</find>
+      <find>load</find>
+      <find>achat</find>
+      <find>achatController</find>
+      <find>detailsContentPane</find>
+      <find>loadt</find>
+      <find>achatController.</find>
+      <find>reload</find>
+      <find>items.</find>
+      <find>famille</find>
+      <find>chargerL</find>
+      <find>loadI</find>
+      <find>btnannul</find>
+      <find>tablehistorique</find>
+      <find>dateselected.</find>
+      <find>inscriptionController</find>
+      <find>historyController</find>
+      <find>loadh</find>
+      <find>dateselected</find>
     </findStrings>
     <replaceStrings>
       <replace>root</replace>
+      <replace>tabajout</replace>
     </replaceStrings>
   </component>
   <component name="FindManager">
@@ -177,11 +485,16 @@
         <option value="$PROJECT_DIR$/src/main/java/Controllers/MenuControlleur.java" />
         <option value="$PROJECT_DIR$/src/main/java/DashBoard/DashBoardController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/views/Dashboard.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/KollereUtils.java" />
         <option value="$PROJECT_DIR$/target/app/app.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Controllers/DashBoardController.java" />
         <option value="$PROJECT_DIR$/src/main/java/DashBoard/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/views/achat.fxml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/KollereUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modules/ticket/TicketController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modules/carte/achat/AchatController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modules/carte/inscription/InscriptionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers/DashBoardController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/modules/historique/HistoryController.java" />
       </list>
     </option>
   </component>
@@ -197,6 +510,17 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="kollere_maven" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -224,8 +548,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,22 +565,20 @@
             <path>
               <item name="kollere_maven" type="b2602c69:ProjectViewProjectNode" />
               <item name="kollere_maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kollere_maven" type="b2602c69:ProjectViewProjectNode" />
               <item name="kollere_maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,21 +593,22 @@
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kollere_desktop/lib/jfoenix.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../city" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38275862" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Dame\IdeaProjects\kollere_maven\src\main\resources\images" />
-      <recent name="C:\Users\Dame\IdeaProjects\kollere_maven\src\main\resources\views" />
-      <recent name="C:\Users\Dame\IdeaProjects\kollere_maven\src\main\java" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dame\IdeaProjects\kollere_maven\src\main\resources\views" />
       <recent name="C:\Users\Dame\IdeaProjects\kollere_maven\src\main\resources\css" />
       <recent name="C:\Users\Dame\IdeaProjects\kollere_maven\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dame\IdeaProjects\kollere_maven\src\main\resources\views" />
+      <recent name="C:\Users\Dame\IdeaProjects\kollere_maven\src\main\resources\images\familles" />
+      <recent name="C:\Users\Dame\IdeaProjects\kollere_maven\src\main\resources\images" />
+      <recent name="C:\Users\Dame\IdeaProjects\kollere_maven\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -501,7 +824,24 @@
       <workItem from="1525948187537" duration="6641000" />
       <workItem from="1525967779672" duration="12630000" />
       <workItem from="1526053230576" duration="9129000" />
-      <workItem from="1526116073567" duration="564000" />
+      <workItem from="1526116073567" duration="8541000" />
+      <workItem from="1526163292290" duration="37379000" />
+      <workItem from="1526312721173" duration="553000" />
+      <workItem from="1526325796727" duration="1330000" />
+      <workItem from="1526332661013" duration="14595000" />
+      <workItem from="1526487294691" duration="17421000" />
+      <workItem from="1526545348199" duration="19806000" />
+      <workItem from="1526632567206" duration="10052000" />
+      <workItem from="1526653742221" duration="3000000" />
+      <workItem from="1526724919160" duration="21671000" />
+      <workItem from="1526774078722" duration="185000" />
+      <workItem from="1526815854900" duration="325000" />
+      <workItem from="1526927585748" duration="255000" />
+      <workItem from="1526930627306" duration="1147000" />
+      <workItem from="1530219156727" duration="2177000" />
+      <workItem from="1530228226451" duration="535000" />
+      <workItem from="1530308695779" duration="11378000" />
+      <workItem from="1530381388041" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1526054504449</created>
@@ -524,49 +864,57 @@
       <option name="project" value="LOCAL" />
       <updated>1526116620692</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <created>1526116657691</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1526116657691</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68375000" />
+    <option name="totallyTimeSpent" value="218349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3167116" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31940702" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27899486" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34858248" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925257" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3167116" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -591,48 +939,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/views/main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/DashBoardController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2941">
-          <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/modules/login/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="57" column="35" lean-forward="false" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DashBoard/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="14" column="98" lean-forward="false" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -645,21 +956,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/views/main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/DashBoardController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3604">
           <caret line="212" column="60" lean-forward="false" selection-start-line="212" selection-start-column="60" selection-end-line="212" selection-end-column="60" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -675,9 +987,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -693,7 +1003,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3604">
           <caret line="212" column="60" lean-forward="false" selection-start-line="212" selection-start-column="60" selection-end-line="212" selection-end-column="60" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -701,9 +1013,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -715,18 +1025,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/app/app.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/app/app.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/DashBoardController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3604">
           <caret line="212" column="60" lean-forward="false" selection-start-line="212" selection-start-column="60" selection-end-line="212" selection-end-column="60" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -734,9 +1040,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -748,18 +1052,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/app/app.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/app/app.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/DashBoardController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3604">
           <caret line="212" column="60" lean-forward="false" selection-start-line="212" selection-start-column="60" selection-end-line="212" selection-end-column="60" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -767,9 +1067,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -781,18 +1079,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/app/app.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/app/app.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/DashBoardController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3009">
           <caret line="212" column="60" lean-forward="false" selection-start-line="212" selection-start-column="60" selection-end-line="212" selection-end-column="60" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -800,9 +1094,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -814,18 +1106,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/app/app.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/app/app.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/DashBoardController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3009">
           <caret line="212" column="60" lean-forward="false" selection-start-line="212" selection-start-column="60" selection-end-line="212" selection-end-column="60" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -833,9 +1121,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -866,16 +1152,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/views/Dashboard.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nfctools/NfcTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -883,61 +1159,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/KollereUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/app/app.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/views/main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="69" lean-forward="false" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="69" />
+        </state>
+      </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/views/achat_new.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DashBoard/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="138" column="26" lean-forward="false" selection-start-line="137" selection-start-column="32" selection-end-line="138" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/MonTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="198" column="82" lean-forward="false" selection-start-line="198" selection-start-column="75" selection-end-line="198" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/modules/login/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="57" column="35" lean-forward="false" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/views/Dashboard.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/KollereUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-511">
+          <caret line="165" column="25" lean-forward="false" selection-start-line="165" selection-start-column="25" selection-end-line="165" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/views/AchatTicket.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modules/ticket/TicketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="269" column="38" lean-forward="false" selection-start-line="269" selection-start-column="38" selection-end-line="269" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/views/achat.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1057">
+          <caret line="72" column="37" lean-forward="false" selection-start-line="72" selection-start-column="37" selection-end-line="72" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modules/carte/achat/AchatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="320" column="17" lean-forward="true" selection-start-line="320" selection-start-column="17" selection-end-line="320" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modules/carte/inscription/InscriptionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="218" column="0" lean-forward="false" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/modules/historique/HistoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="211" column="29" lean-forward="false" selection-start-line="211" selection-start-column="29" selection-end-line="211" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/DashBoardController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2346">
-          <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DashBoard/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="14" column="98" lean-forward="false" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
+        <state relative-caret-position="159">
+          <caret line="128" column="32" lean-forward="true" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/target/app/app.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="140" column="31" lean-forward="true" selection-start-line="140" selection-start-column="31" selection-end-line="140" selection-end-column="31" />
+        <state relative-caret-position="17">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="30" />
           <folding />
         </state>
       </provider>

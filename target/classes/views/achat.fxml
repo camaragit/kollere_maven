@@ -2,14 +2,16 @@
 
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXComboBox?>
-<?import com.jfoenix.controls.JFXTextField?>
 <?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.ColumnConstraints?>
-<?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
@@ -19,32 +21,9 @@
          <children>
             <AnchorPane fx:id="holderAnchor" prefHeight="680.0" prefWidth="897.0">
                <children>
-                  <AnchorPane layoutX="84.0" layoutY="58.0" prefHeight="529.0" prefWidth="705.0" styleClass="card-white">
+                  <AnchorPane layoutX="66.0" layoutY="44.0" prefHeight="602.0" prefWidth="784.0" styleClass="card-white">
                      <children>
-                        <GridPane layoutX="85.0" layoutY="44.0" prefHeight="315.0" prefWidth="562.0" AnchorPane.leftAnchor="85.0" AnchorPane.rightAnchor="58.0">
-                           <columnConstraints>
-                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
-                           </columnConstraints>
-                           <rowConstraints>
-                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
-                              <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
-                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                           </rowConstraints>
-                           <children>
-                              <JFXTextField fx:id="txtprixboutique" editable="false" focusColor="#999900" labelFloat="true" maxWidth="563.0" minWidth="224.0" prefHeight="38.0" prefWidth="563.0" promptText="Prix " GridPane.rowIndex="1">
-                                 <font>
-                                    <Font name="Times New Roman Bold" size="17.0" />
-                                 </font>
-                              </JFXTextField>
-                              <JFXComboBox fx:id="moncombo" prefHeight="35.0" prefWidth="569.0" promptText="Selectionner un produit" />
-                              <JFXTextField fx:id="txtprixkollere" editable="false" focusColor="#999900" labelFloat="true" maxWidth="566.0" minWidth="224.0" prefHeight="38.0" prefWidth="566.0" promptText="Prix Kollere" GridPane.rowIndex="2">
-                                 <font>
-                                    <Font name="Times New Roman Bold" size="17.0" />
-                                 </font>
-                              </JFXTextField>
-                           </children>
-                        </GridPane>
-                        <Pane layoutX="14.0" layoutY="-34.0" prefHeight="45.0" prefWidth="224.0" style="-fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5); -fx-background-radius: 4; -fx-background-color: #999900;">
+                        <Pane layoutX="14.0" layoutY="-27.0" prefHeight="38.0" prefWidth="224.0" style="-fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0, 0.15), 6.0, 0.7, 0.0,1.5); -fx-background-radius: 4; -fx-background-color: #999900;">
                            <children>
                               <Label layoutX="29.0" layoutY="5.0" prefHeight="27.0" prefWidth="164.0" text="Achat via Carte" textFill="WHITE">
                                  <font>
@@ -53,7 +32,7 @@
                               </Label>
                            </children>
                         </Pane>
-                        <JFXButton fx:id="btnsave" buttonType="RAISED" layoutX="476.0" layoutY="422.0" onAction="#acheter" prefHeight="31.0" prefWidth="132.0" style="-fx-background-color: #999900; -fx-border-radius: 20px;" text="Valider" textFill="#fffefe">
+                        <JFXButton fx:id="btnsave" buttonType="RAISED" layoutX="326.0" layoutY="557.0" onAction="#acheter" prefHeight="31.0" prefWidth="132.0" style="-fx-background-color: #999900; -fx-border-radius: 20px;" text="Valider" textFill="#fffefe">
                            <font>
                               <Font name="Times New Roman Bold" size="16.0" />
                            </font>
@@ -61,6 +40,121 @@
                               <MaterialDesignIconView fill="WHITE" glyphName="CONTENT_SAVE" size="20" wrappingWidth="33.0" />
                            </graphic>
                         </JFXButton>
+                        <JFXButton fx:id="ajouter" buttonType="RAISED" layoutX="608.0" layoutY="301.0" onAction="#ajouter" prefHeight="31.0" prefWidth="132.0" style="-fx-background-color: #448AFF; -fx-border-radius: 20px;" text="Ajouter" textFill="#fffefe">
+                           <font>
+                              <Font name="Times New Roman Bold" size="16.0" />
+                           </font>
+                           <graphic>
+                              <MaterialDesignIconView fill="WHITE" glyphName="CART_PLUS" size="20" wrappingWidth="33.0" />
+                           </graphic>
+                        </JFXButton>
+                        <JFXComboBox fx:id="famille" labelFloat="true" layoutX="47.0" layoutY="27.0" prefHeight="35.0" prefWidth="659.0" promptText="Selectionner une famille" />
+                        <JFXComboBox fx:id="items" labelFloat="true" layoutX="47.0" layoutY="94.0" prefHeight="35.0" prefWidth="659.0" promptText="Selectionner un produit" />
+                        <Spinner fx:id="quantitetxt" editable="true" layoutX="271.0" layoutY="144.0" prefHeight="26.0" prefWidth="437.0">
+                           <valueFactory>
+                              <SpinnerValueFactory.IntegerSpinnerValueFactory amountToStepBy="1" initialValue="1" max="10000000" min="1" />
+                           </valueFactory>
+                        </Spinner>
+                        <Label layoutX="50.0" layoutY="141.0" prefHeight="31.0" prefWidth="151.0" text="Quantité" />
+                        <TableView fx:id="tabproduits" layoutX="72.0" layoutY="337.0" prefHeight="187.0" prefWidth="478.0">
+                          <columns>
+                            <TableColumn fx:id="produit" editable="false" prefWidth="149.0" text="ITEM" />
+                            <TableColumn fx:id="quantite" editable="false" minWidth="0.0" prefWidth="72.0" text="QUANTITE" />
+                              <TableColumn fx:id="prixboutique" editable="false" minWidth="0.0" prefWidth="142.0" text="PRIX BOUTIQUE" />
+                              <TableColumn fx:id="prixkollere" editable="false" minWidth="0.0" prefWidth="114.0" text="PRIX KOLLERE" />
+                          </columns>
+                        </TableView>
+                        <JFXButton fx:id="btnsave11" buttonType="RAISED" layoutX="589.0" layoutY="378.0" onAction="#supprimer" prefHeight="31.0" prefWidth="151.0" style="-fx-background-color: #DD2C00; -fx-border-radius: 20px;" text="Supprimer" textFill="#fffefe">
+                           <font>
+                              <Font name="Times New Roman Bold" size="16.0" />
+                           </font>
+                           <graphic>
+                              <MaterialDesignIconView fill="WHITE" glyphName="PLAYLIST_REMOVE" size="20" wrappingWidth="33.0" />
+                           </graphic>
+                        </JFXButton>
+                        <Pane fx:id="detailsContentPane" layoutX="569.0" layoutY="431.0" prefHeight="102.0" prefWidth="191.0" styleClass="card-white">
+                           <children>
+                              <Separator layoutY="35.0" prefHeight="16.0" prefWidth="183.0" />
+                              <Separator layoutY="74.0" prefHeight="20.0" prefWidth="183.0" />
+                              <Label fx:id="item" layoutX="-3.0" layoutY="17.0" prefHeight="25.0" prefWidth="121.0" text="Total Boutique" textFill="#999900">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="17.0" />
+                                 </font>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="2.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="prixshop" layoutX="101.0" layoutY="108.0" prefHeight="20.0" prefWidth="87.0" textFill="#999900">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="17.0" />
+                                 </font>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="20.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="valprixshop" layoutX="116.0" layoutY="17.0" prefHeight="25.0" prefWidth="70.0" text="Label" textFill="#999900">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="17.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="prixk" layoutX="-3.0" layoutY="59.0" prefHeight="20.0" prefWidth="112.0" text="Total kollere" textFill="#999900">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="17.0" />
+                                 </font>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets left="2.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="valprixk" layoutX="117.0" layoutY="57.0" prefHeight="25.0" prefWidth="70.0" text="Label" textFill="#999900">
+                                 <font>
+                                    <Font name="Times New Roman Bold" size="17.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Separator layoutX="50.0" layoutY="228.0" prefHeight="16.0" prefWidth="659.0" />
+                        <Separator layoutX="50.0" layoutY="267.0" prefHeight="20.0" prefWidth="659.0" />
+                        <Label fx:id="prixitemboutique" layoutX="47.0" layoutY="210.0" prefHeight="25.0" prefWidth="407.0" text="Prix" textFill="#999900">
+                           <font>
+                              <Font name="Times New Roman Bold" size="17.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets left="2.0" />
+                           </padding>
+                        </Label>
+                        <Label fx:id="valitemprixboutique" layoutX="478.0" layoutY="210.0" prefHeight="25.0" prefWidth="224.0" text="Label" textFill="#999900">
+                           <font>
+                              <Font name="Times New Roman Bold" size="17.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="prixk1" layoutX="47.0" layoutY="252.0" prefHeight="20.0" prefWidth="112.0" text="Total kollere" textFill="#999900">
+                           <font>
+                              <Font name="Times New Roman Bold" size="17.0" />
+                           </font>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets left="2.0" />
+                           </padding>
+                        </Label>
+                        <Label fx:id="valitemprixkollere" layoutX="479.0" layoutY="255.0" prefHeight="25.0" prefWidth="209.0" text="Label" textFill="#999900">
+                           <font>
+                              <Font name="Times New Roman Bold" size="17.0" />
+                           </font>
+                        </Label>
                      </children>
                   </AnchorPane>
                </children>

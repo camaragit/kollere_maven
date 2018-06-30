@@ -2,20 +2,16 @@ package utils;
 
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
+import com.sun.jersey.api.client.WebResource;
 import com.sun.jersey.api.client.config.DefaultClientConfig;
 import javafx.application.Platform;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
-import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Alert;
-import javafx.scene.control.ButtonType;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 import javafx.util.Duration;
 import nfctools.NfcTools;
 import org.codehaus.jackson.JsonNode;
@@ -23,6 +19,7 @@ import org.codehaus.jackson.map.ObjectMapper;
 import org.controlsfx.control.Notifications;
 
 import javax.smartcardio.*;
+import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.UriBuilder;
 import java.io.IOException;
 import java.io.PrintStream;
@@ -45,6 +42,8 @@ public class KollereUtils {
     //public static  String SOLDE;
     public static  String TICKET;
     public static  String IDCARTE="";
+    public static  String CODETICKET="";
+    public static int CODEPANIER;
     public static  StringProperty TITRE_BOUTIQUE = new SimpleStringProperty();
     public static  StringProperty AGENT_BOUTIQUE = new SimpleStringProperty();
     public static StringProperty SOLDE = new SimpleStringProperty();
@@ -81,9 +80,11 @@ public class KollereUtils {
             Client client = Client.create(new DefaultClientConfig());
 
             URI uri = UriBuilder.fromUri(url).build();
-            ClientResponse clientResponse = client.resource(uri).post(ClientResponse.class);
-
+            //WebResource.Builder webResource = client.resource(uri).post(WebResource.class).header("","").accept(MediaType.APPLICATION_JSON);
+            //ClientResponse clientResponse = client.resource(uri).post(ClientResponse.class);
+            ClientResponse clientResponse = client.resource(uri).header("type_requete","DESKTOP").post(ClientResponse.class);
             String val = clientResponse.getEntity(String.class);
+            //String val = webResource.get(String.class);
             System.out.println("********* Reponse ======>"+val+"***********************");
             ObjectMapper mapper = new ObjectMapper();
             JsonNode actualObj = mapper.readTree(val);

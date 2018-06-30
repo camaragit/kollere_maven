@@ -27,7 +27,7 @@
                            <children>
                               <ImageView fitHeight="85.0" fitWidth="92.0" layoutX="15.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../images/images%20(1).jpg" />
+                                    <Image url="@../images/images%20(1).jpg" />
                                  </image>
                               </ImageView>
                            </children>
@@ -147,7 +147,7 @@
                         </JFXButton>
                         <Pane fx:id="detailsContentPane1" layoutX="44.0" layoutY="299.0" prefHeight="72.0" prefWidth="665.0" styleClass="card-white">
                            <children>
-                              <Separator layoutY="25.0" prefHeight="16.0" prefWidth="676.0" />
+                              <Separator layoutY="25.0" prefHeight="16.0" prefWidth="655.0" />
                               <Label fx:id="lbprixtbtique" layoutX="104.0" layoutY="8.0" prefHeight="25.0" prefWidth="239.0" textFill="#999900">
                                  <font>
                                     <Font name="Times New Roman Bold" size="17.0" />
@@ -159,12 +159,12 @@
                                     <Insets left="20.0" />
                                  </padding>
                               </Label>
-                              <Label fx:id="prixtbtique" layoutX="464.0" layoutY="8.0" prefHeight="25.0" prefWidth="214.0" text="Label" textFill="#999900">
+                              <Label fx:id="prixtbtique" layoutX="464.0" layoutY="8.0" prefHeight="25.0" prefWidth="198.0" text="Label" textFill="#999900">
                                  <font>
                                     <Font name="Times New Roman Bold" size="17.0" />
                                  </font>
                               </Label>
-                              <Separator layoutY="57.0" prefHeight="16.0" prefWidth="676.0" />
+                              <Separator layoutY="57.0" prefHeight="16.0" prefWidth="655.0" />
                               <Label fx:id="prixk1" layoutX="101.0" layoutY="48.0" prefHeight="20.0" prefWidth="239.0" text="PRIX TOTAL KOLLERE" textFill="#999900">
                                  <font>
                                     <Font name="Times New Roman Bold" size="17.0" />
@@ -176,7 +176,7 @@
                                     <Insets left="20.0" />
                                  </padding>
                               </Label>
-                              <Label fx:id="prixtkollere" layoutX="464.0" layoutY="44.0" prefHeight="25.0" prefWidth="214.0" text="Label" textFill="#999900">
+                              <Label fx:id="prixtkollere" layoutX="464.0" layoutY="44.0" prefHeight="25.0" prefWidth="198.0" text="Label" textFill="#999900">
                                  <font>
                                     <Font name="Times New Roman Bold" size="17.0" />
                                  </font>

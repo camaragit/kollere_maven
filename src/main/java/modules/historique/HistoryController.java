@@ -205,4 +205,11 @@ public class HistoryController implements Initializable {
 
 
     }
+    public void reset(){
+      tablehistorique.getItems().clear();
+      tablehistorique.setVisible(false);
+      entete.setText("");
+      entete.setVisible(false);
+      dateselected.setValue(null);
+    }
 }
