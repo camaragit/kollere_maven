@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modules/carte/achat/AchatController.java" afterPath="$PROJECT_DIR$/src/main/java/modules/carte/achat/AchatController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modules/carte/inscription/InscriptionController.java" afterPath="$PROJECT_DIR$/src/main/java/modules/carte/inscription/InscriptionController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modules/historique/HistoryController.java" afterPath="$PROJECT_DIR$/src/main/java/modules/historique/HistoryController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modules/ticket/TicketController.java" afterPath="$PROJECT_DIR$/src/main/java/modules/ticket/TicketController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/inscription.fxml" afterPath="$PROJECT_DIR$/src/main/resources/views/inscription.fxml" />
-      <change beforePath="$PROJECT_DIR$/target/app/app.xml" afterPath="$PROJECT_DIR$/target/app/app.xml" />
-      <change beforePath="$PROJECT_DIR$/target/app/fxlauncher.jar" afterPath="$PROJECT_DIR$/target/app/fxlauncher.jar" />
-      <change beforePath="$PROJECT_DIR$/target/classes/modules/carte/achat/AchatController.class" afterPath="$PROJECT_DIR$/target/classes/modules/carte/achat/AchatController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/modules/carte/inscription/InscriptionController.class" afterPath="$PROJECT_DIR$/target/classes/modules/carte/inscription/InscriptionController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/modules/historique/HistoryController.class" afterPath="$PROJECT_DIR$/target/classes/modules/historique/HistoryController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/modules/ticket/TicketController.class" afterPath="$PROJECT_DIR$/target/classes/modules/ticket/TicketController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/views/inscription.fxml" afterPath="$PROJECT_DIR$/target/classes/views/inscription.fxml" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -669,7 +657,7 @@
       <workItem from="1537218677898" duration="133000" />
       <workItem from="1537223105099" duration="4416000" />
       <workItem from="1537260975821" duration="58000" />
-      <workItem from="1537657922441" duration="23000" />
+      <workItem from="1537657922441" duration="585000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1526054504449</created>
@@ -717,7 +705,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310499000" />
+    <option name="totallyTimeSpent" value="311061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
