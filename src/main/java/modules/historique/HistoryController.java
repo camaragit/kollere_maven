@@ -7,10 +7,7 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Label;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
-import javafx.scene.control.TextInputDialog;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import org.codehaus.jackson.JsonNode;
 import utils.Historique;
@@ -100,7 +97,7 @@ public class HistoryController implements Initializable {
                                        return;
 
                                    }
-                                   KollereUtils.SOLDE.setValue("SOLDE :"+KollereUtils.NUMBER_FORMAT.format(actualObj.get("montantRestant").asInt())+" F CFA | CASH : "+cash.get("montantRecu").asText());
+                                   KollereUtils.SOLDE.setValue("SOLDE :"+KollereUtils.NUMBER_FORMAT.format(actualObj.get("solde").asInt())+" F CFA | CASH : "+cash.get("montantRecu").asText());
                                    KollereUtils.showAlert("Transaction annulée avec succès","Annulation","info");
                                    //KollereUtils.SOLDE.setValue("SOLDE     : "+KollereUtils.NUMBER_FORMAT.format(actualObj.get("montantRestant").asInt())+" F CFA");
                                }

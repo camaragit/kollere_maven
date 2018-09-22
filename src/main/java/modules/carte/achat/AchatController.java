@@ -106,7 +106,7 @@ private TableView<MonTicket> tabproduits;
     @FXML
     void acheter(ActionEvent event) {
 
-        if(tabproduits.getItems().isEmpty())
+        if(!tabproduits.getItems().isEmpty())
         {
             if(KollereUtils.IDCARTE.equals(""))
             {
@@ -247,7 +247,10 @@ private TableView<MonTicket> tabproduits;
                     System.out.println(" changement de famille "+famille.getValue());
                     String url = null;
 
+                    http://services.ajit.sn/ws/resto/listitemsfamillecommerce?famille=PLATS&commerce=commerce
+
                     url = "http://services.ajit.sn/ws/resto/listitemsfamillecommerce?famille="+URLEncoder.encode(famille.getValue(), "UTF-8");
+                    url +="&commerce="+URLEncoder.encode(KollereUtils.TITRE_BOUTIQUE.getValue(),"UTF-8");
 
                     //  System.out.println(u);
                     JsonNode actualObj = KollereUtils.callWebservice(url);
@@ -397,7 +400,7 @@ private TableView<MonTicket> tabproduits;
                         return;
 
                     }
-                    KollereUtils.SOLDE.setValue("SOLDE :"+KollereUtils.NUMBER_FORMAT.format(actualObj.get("montantRestant").asInt())+" F CFA | CASH : "+cash.get("montantRecu").asText());
+                    KollereUtils.SOLDE.setValue("SOLDE :"+KollereUtils.NUMBER_FORMAT.format(actualObj.get("solde").asInt())+" F CFA | CASH : "+cash.get("montantRecu").asText());
                     KollereUtils.showAlert("Achat effectuée avec succès","Validation Achat","infos");
                     reload();
                 }
@@ -481,7 +484,7 @@ private TableView<MonTicket> tabproduits;
         if(prod!=null){
             try {
 
-                String url = "http://services.ajit.sn/ws/resto/editingpanier?commerce="+KollereUtils.TITRE_BOUTIQUE.getValue();
+                String url = "http://services.ajit.sn/ws/resto/editingpanier?commerce="+URLEncoder.encode(KollereUtils.TITRE_BOUTIQUE.getValue(), "UTF-8");
                 url+="&panier="+KollereUtils.CODETICKET+"&item="+URLEncoder.encode(prod.getProduit(), "UTF-8") ;
                 url+="&quantite=0";
                 JsonNode actualObj = KollereUtils.callWebservice(url);

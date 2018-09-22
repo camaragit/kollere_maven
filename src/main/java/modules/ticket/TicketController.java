@@ -213,7 +213,7 @@ public class TicketController implements Initializable {
                         return;
 
                     }
-                    KollereUtils.SOLDE.setValue("SOLDE :"+KollereUtils.NUMBER_FORMAT.format(actualObj.get("montantRestant").asInt())+" F CFA | CASH : "+cash.get("montantRecu").asText());
+                    KollereUtils.SOLDE.setValue("SOLDE :"+KollereUtils.NUMBER_FORMAT.format(actualObj.get("solde").asInt())+" F CFA | CASH : "+cash.get("montantRecu").asText());
                   //  KollereUtils.SOLDE.setValue("SOLDE     : "+KollereUtils.NUMBER_FORMAT.format(actualObj.get("montantRestant").asInt())+" F CFA");
                     a.setContentText("Achat bien effectue");
                     a.showAndWait();

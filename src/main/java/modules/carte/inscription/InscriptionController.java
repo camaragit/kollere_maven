@@ -1,5 +1,6 @@
 package modules.carte.inscription;
 
+import com.jfoenix.controls.JFXRadioButton;
 import com.jfoenix.controls.JFXTextField;
 import com.jfoenix.validation.RequiredFieldValidator;
 
@@ -12,7 +13,11 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.control.Spinner;
+import javafx.scene.control.Toggle;
+import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.paint.Color;
 import nfctools.NfcTools;
 import org.codehaus.jackson.JsonNode;
 import utils.KollereUtils;
@@ -45,17 +50,8 @@ public class InscriptionController implements Initializable {
 
     @FXML
     private JFXTextField txtEmail;
-    @FXML
-    private FontAwesomeIconView warntel;
 
-    @FXML
-    private FontAwesomeIconView warpnom;
 
-    @FXML
-    private FontAwesomeIconView warnname;
-
-    @FXML
-    private FontAwesomeIconView warnmail;
     @FXML
     private Label lmail;
 
@@ -66,21 +62,45 @@ public class InscriptionController implements Initializable {
     private Label lpname;
     @FXML
     private Label lname;
+    @FXML
+    private Label ladresse;
+    @FXML
+    private Label lprofession;
+
+
+    @FXML
+    private JFXRadioButton feminin;
+    final ToggleGroup group = new ToggleGroup();
+    @FXML
+    private JFXRadioButton masculin;
+
+    @FXML
+    private JFXTextField adresse;
+
+    @FXML
+    private JFXTextField profession;
+
+    @FXML
+    private Spinner<Integer> age;
+    String genre ="";
 
 
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        System.out.println("controlleur inscription");
 
-    txtFname.focusedProperty().addListener((arg,old,nouv)->{
-        warpnom.setVisible(false);
+        System.out.println("controlleur inscription");
+        masculin.setToggleGroup(group);
+        feminin.setToggleGroup(group);
+        masculin.setSelectedColor(Color.valueOf("#999900"));
+        feminin.setSelectedColor(Color.valueOf("#999900"));
+        txtFname.focusedProperty().addListener((arg,old,nouv)->{
         lpname.setText("");
         if(!nouv){
             if(txtFname.getText().equals(""))
             {
                 lpname.setText("Veuillez renseigner le prénom du client");
-                warpnom.setVisible(true);
+                //warpnom.setVisible(true);
             }
 
 
@@ -88,41 +108,65 @@ public class InscriptionController implements Initializable {
     });
         txtEmail.focusedProperty().addListener((arg0, oldValue, newValue) -> {
             lmail.setText("");
-            warnmail.setVisible(false);
+            //warnmail.setVisible(false);
             if (!newValue) {
                 if(!txtEmail.getText().matches("^[a-zA-Z0-9_!#$%&’*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$")){
                   lmail.setText("Veuillez renseigner un format de mail valide");
-                  warnmail.setVisible(true);
+                  //warnmail.setVisible(true);
                 }
 
             }
         });
         txtLname.focusedProperty().addListener((arg,old,nouv)->{
-            warnname.setVisible(false);
+            //warnname.setVisible(false);
             lname.setText("");
             if(!nouv){
                 if(txtLname.getText().equals(""))
                 {
                     lname.setText("Veuillez renseigner le nom du client");
-                    warnname.setVisible(true);
+                    //warnname.setVisible(true);
                 }
 
 
             }
         });
         txtMobile.focusedProperty().addListener((arg,old,nouv)->{
-            warntel.setVisible(false);
+            //warntel.setVisible(false);
             ltel.setText("");
             if(!nouv){
 
                 if(txtMobile.getText().equals("") || !KollereUtils.verifTel(txtMobile.getText()))
                 {
                     ltel.setText("Veuiller renseigner un format numero de telephone valide");
-                    warntel.setVisible(true);
+                    //warntel.setVisible(true);
                 }
 
 
             }
+        });
+
+        adresse.focusedProperty().addListener((arg,old,nouv)->{
+            ladresse.setText("");
+            if(!nouv){
+                if(adresse.getText().equals(""))
+                    ladresse.setText("Veuillez renseigner l'adresse");
+            }
+        });
+        profession.focusedProperty().addListener((arg,old,nouv)->{
+            lprofession.setText("");
+            if(!nouv){
+                if(profession.getText().equals(""))
+                    lprofession.setText("Veuillez renseigner la profession");
+            }
+        });
+        age.focusedProperty().addListener((arg,old,nouv)->{
+
+        });
+        group.selectedToggleProperty().addListener((arg,old,nouv)->{
+            JFXRadioButton selected = (JFXRadioButton) nouv;
+            if(nouv!=null)
+            genre = selected.getText().equals("Masculin") ? "M" :"F";
+
         });
 
     }
@@ -130,38 +174,46 @@ public class InscriptionController implements Initializable {
 
     @FXML
     void inscrire(ActionEvent event) {
+
         lname.setText(""); ltel.setText(""); ltel.setText(""); lmail.setText("");
-        warntel.setVisible(false); warnname.setVisible(false); warpnom.setVisible(false); warnmail.setVisible(false);
+        //warntel.setVisible(false); warnname.setVisible(false); warpnom.setVisible(false); warnmail.setVisible(false);
 
             if(txtFname.getText().equals(""))
         {
             lpname.setText("Veuillez renseigner le prénom du client");
-            warpnom.setVisible(true);
+            //warpnom.setVisible(true);
         } else {
                 if(txtLname.getText().equals(""))
                 {
                     lname.setText("Veuillez renseigner le nom du client");
-                    warnname.setVisible(true);
+                    //warnname.setVisible(true);
                 }
                 else{
                     if(txtMobile.getText().equals("") || !KollereUtils.verifTel(txtMobile.getText()))
                     {
                         ltel.setText("Veuiller revoir le format du numero de telephone");
-                        warntel.setVisible(true);
+                        //warntel.setVisible(true);
                     }
                     else{
                         if(!txtEmail.getText().matches("^[a-zA-Z0-9_!#$%&’*+/=?`{|}~^.-]+@[a-zA-Z0-9.-]+$")){
                             lmail.setText("Veuillez renseigner un format de mail valide");
-                            warnmail.setVisible(true);
+                            //warnmail.setVisible(true);
                         }
                         else{
-                            System.out.println("carte pas encore recuperée");
-                            if(KollereUtils.IDCARTE.equals("")) {
-                                if(KollereUtils.lireidnfc())
-                                {
-                                    inscription();
-                                }
-
+                            if(adresse.getText().equals(""))
+                                ladresse.setText("Veuillez renseigner l'adresse");
+                            else
+                                if(genre.equals(""))
+                                    lmail.setText("Veuillez renseigner le sexe");
+                            else
+                                if(profession.getText().equals(""))
+                                    lprofession.setText("Veuillez renseigner la profession");
+                            else
+                                if(KollereUtils.IDCARTE.equals("")){
+                                    if(KollereUtils.lireidnfc())
+                                    {
+                                        inscription();
+                                    }
 
                             }
                             else {
@@ -180,8 +232,11 @@ public class InscriptionController implements Initializable {
 
     public  void inscription()
     {
+
         try {
             String url = "http://services.ajit.sn/ws/resto/inscription?nfcid="+KollereUtils.IDCARTE+"&nom="+URLEncoder.encode(txtLname.getText(),"UTF-8")+"&prenom="+URLEncoder.encode(txtFname.getText(),"UTF-8")+"&email="+txtEmail.getText()+"&numtel="+txtMobile.getText();
+
+            url +="&genre="+genre+"&age="+age.getValue()+"&quartier="+URLEncoder.encode(adresse.getText(),"UTF-8")+"&profession="+URLEncoder.encode(profession.getText(),"UTF-8");
             JsonNode actualObj = KollereUtils.callWebservice(url);
             if(actualObj!=null)
             {
@@ -208,15 +263,19 @@ public class InscriptionController implements Initializable {
         txtEmail.setText("");
         txtLname.setText("");
         txtFname.setText("");
-        warnmail.setVisible(false);
-        warnname.setVisible(false);
-        warntel.setVisible(false);
-        warpnom.setVisible(false);
+        //warnmail.setVisible(false);
+        //warnname.setVisible(false);
+        //warntel.setVisible(false);
+        //warpnom.setVisible(false);
         lmail.setText("");
         lname.setText("");
         lpname.setText("");
         ltel.setText("");
-
+        profession.setText("");
+        adresse.setText("");
+        age.getEditor().setText("1");
+        feminin.setSelected(false);
+        masculin.setSelected(false);
     }
 
 }
