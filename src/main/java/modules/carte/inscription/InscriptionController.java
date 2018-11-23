@@ -100,7 +100,6 @@ public class InscriptionController implements Initializable {
             if(txtFname.getText().equals(""))
             {
                 lpname.setText("Veuillez renseigner le prénom du client");
-                //warpnom.setVisible(true);
             }
 
 
@@ -243,6 +242,7 @@ public class InscriptionController implements Initializable {
                 if(actualObj.get("code").asText().equals("0"))
                 {
                     KollereUtils.showAlert(actualObj.get("message").asText(),"Inscription","infos");
+                    KollereUtils.saveuser(new Client(txtLname.getText(),txtFname.getText(),txtEmail.getText(),txtMobile.getText(),KollereUtils.IDCARTE));
                     reset();
                 }
                 else KollereUtils.showAlert(actualObj.get("message").asText(),"Inscription","erreur");

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Application ts="1534275496445" uri="http://212.71.244.7/deploy/" launch="DashBoard.Main">
+<Application ts="1542989435884" uri="http://212.71.244.7/deploy/" launch="DashBoard.Main">
     <lib file="commons-io.jar" checksum="3917470109" size="87776"/>
     <lib file="controlsfx.jar" checksum="901192049" size="985420"/>
     <lib file="fontawesomefx.jar" checksum="2474977539" size="571068"/>
@@ -9,7 +9,7 @@
     <lib file="jersey-bundle.jar" checksum="3616936487" size="1395596"/>
     <lib file="jfoenix.jar" checksum="806980634" size="2312030"/>
     <lib file="jsr311-api.jar" checksum="3748307125" size="46367"/>
-    <lib file="kollere-1.0-SNAPSHOT.jar" checksum="1623554037" size="1918851"/>
+    <lib file="kollere-1.0-SNAPSHOT.jar" checksum="93374434" size="1921107"/>
     <updateText>Updating...</updateText>
     <updateLabelStyle>-fx-font-weight: bold;</updateLabelStyle>
     <progressBarStyle>-fx-pref-width: 200;</progressBarStyle>

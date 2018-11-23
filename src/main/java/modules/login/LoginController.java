@@ -76,6 +76,7 @@ public class LoginController implements Initializable {
                             return;
                         }
                         else{
+
                             KollereUtils.TITRE_BOUTIQUE.setValue(actualObj.get("nomresto").asText().toUpperCase());
                             KollereUtils.AGENTID = actualObj.get("agentid").asText();
 
@@ -91,7 +92,14 @@ public class LoginController implements Initializable {
                             {
                                 erreurlogin.setText(cash.get("message").asText()+" !");
                             }
-                            KollereUtils.SOLDE.setValue("SOLDE :"+KollereUtils.NUMBER_FORMAT.format(soldeobj.get("montantRestant").asInt())+" F CFA | CASH : "+cash.get("montantRecu").asText());
+                            //Si Maxifood
+                            if(KollereUtils.AGENTID.equals("778"))
+                            {
+                                KollereUtils.SOLDE.setValue("SOLDE :"+cash.get("solde").asText()+" F CFA | CASH : "+cash.get("montantRecu").asText());
+
+                            }
+                            else KollereUtils.SOLDE.setValue("SOLDE :"+KollereUtils.NUMBER_FORMAT.format(soldeobj.get("montantRestant").asInt())+" F CFA | CASH : "+cash.get("montantRecu").asText());
+
                             KollereUtils.TOKEN =actualObj.get("token").asText();
                             KollereUtils.AGENT_BOUTIQUE.setValue(actualObj.get("prenomagent").asText());
                             erreurlogin.getScene().getWindow().hide();

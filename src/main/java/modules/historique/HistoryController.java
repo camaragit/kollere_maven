@@ -97,7 +97,14 @@ public class HistoryController implements Initializable {
                                        return;
 
                                    }
-                                   KollereUtils.SOLDE.setValue("SOLDE :"+KollereUtils.NUMBER_FORMAT.format(actualObj.get("solde").asInt())+" F CFA | CASH : "+cash.get("montantRecu").asText());
+                                   if(KollereUtils.AGENTID.equals("778"))
+                                   {
+                                       KollereUtils.SOLDE.setValue("SOLDE :"+cash.get("solde").asText()+" F CFA | CASH : "+cash.get("montantRecu").asText());
+
+                                   }
+                                   else KollereUtils.SOLDE.setValue("SOLDE :"+KollereUtils.NUMBER_FORMAT.format(actualObj.get("montantRestant").asInt())+" F CFA | CASH : "+cash.get("montantRecu").asText());
+
+                                 //  KollereUtils.SOLDE.setValue("SOLDE :"+KollereUtils.NUMBER_FORMAT.format(actualObj.get("solde").asInt())+" F CFA | CASH : "+cash.get("montantRecu").asText());
                                    KollereUtils.showAlert("Transaction annulée avec succès","Annulation","info");
                                    //KollereUtils.SOLDE.setValue("SOLDE     : "+KollereUtils.NUMBER_FORMAT.format(actualObj.get("montantRestant").asInt())+" F CFA");
                                }

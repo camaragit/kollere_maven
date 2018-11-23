@@ -10,12 +10,15 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
+import javafx.scene.effect.DropShadow;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
+import javafx.scene.paint.ImagePattern;
+import javafx.scene.shape.Circle;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Screen;
@@ -75,9 +78,7 @@ public class Main extends Application {
        root.setStyle("-fx-background-color: blue;");
         tile.setPadding(new Insets(15, 15, 15, 15));
         tile.setHgap(15);
-
-        String path = "."+File.separator+"src"+File.separator+"main"+File.separator+"resources"+File.separator+"images"+File.separator+"familles";//"/home/ubuntu/eclipse with liferay/Desktop/imagetest/";
-
+        String path = "."+File.separator+"src"+File.separator+"main"+File.separator+"resources"+File.separator+"images"+File.separator+"familles";
         File folder = new File(path);
         File[] listOfFiles = folder.listFiles();
 
@@ -90,25 +91,47 @@ public class Main extends Application {
                    label.setGraphic(new ImageView(image));
             String fileNameWithOutExt = FilenameUtils.removeExtension(file.getName());
             Text inftx = new Text(fileNameWithOutExt);
-            inftx.setFont(new Font("Times New Roman", 20));
+            inftx.setFont(new Font("Times New Roman", 15));
             inftx.setFill(Color.WHITE);
             Label flow = new Label();
             flow.setTextFill(Color.WHITE);
-            flow.setFont(new Font("Times New Roman", 20));
-            flow.setStyle("-fx-background-color: #999000; -fx-border-radius: 20px; -fx-border-color: #999000; ");
+            flow.setFont(new Font("Times New Roman", 15));
+            flow.setStyle("-fx-background-color: #00ACC1;   ");
 
             flow.setText(fileNameWithOutExt);
             //inftx.setStyle("-rtfx-background-color:red;");
          //   inftx.setStyle("");
 
+
             StackPane pane = new StackPane();
 
-            pane.getChildren().add(imageView);
-            pane.getChildren().add(flow);
+           // pane.getChildren().add(imageView);
+           // pane.getChildren().add(flow);
             //pane.getChildren().add(label);
+            Circle cir2 = new Circle(75,75,100);
+            cir2.setStroke(Color.SEAGREEN);
+           // Image im = new Image("https://juicylinksmag.files.wordpress.com/2016/02/juliet-ibrahim.jpg",false);
+            Image im = new Image(new FileInputStream(file));
+            cir2.setFill(new ImagePattern(im));
+            cir2.setEffect(new DropShadow(+25d, 0d, +2d, Color.DARKSEAGREEN));
+        //    Text inftx = new Text("Infrastructure");
 
-            pane.setAlignment(Pos.BOTTOM_CENTER);
+          //  pane.getChildren().add(iv);
+            //pane.getChildren().add(inftx);
+
+            pane.setAlignment(Pos.CENTER);
+
+          //  pane.getChildren().add(cir2);
+           // pane.getChildren().add(flow);
+            StackPane.setMargin(cir2, new Insets(8,8,8,8));
+            pane.getChildren().add(cir2);
+            pane.getChildren().add(flow);
+            pane.setAlignment(Pos.CENTER);
+            pane.setOnMouseClicked(event -> {
+                System.out.println("clique de Dame "+fileNameWithOutExt);
+            });
            // tile.getChildren().addAll(imageView);
+           // tile.getChildren().addAll(pane);
             tile.getChildren().addAll(pane);
           //  tile.getChildren().addAll(label);
         }
@@ -181,16 +204,16 @@ public class Main extends Application {
         return imageView;
     }
 
-  /*  public static void main(String[] args) {
+    public static void main(String[] args) {
         launch(args);
-    }*/
+    }
 
 
 
 
 
 
-    @Override
+//    @Override(le vrai)
     public void start(Stage primaryStage) throws Exception{
         System.out.println("repertoire ===>"+System.getProperty("user.dir")+File.separator+"src"+File.separator+"main"+File.separator+"resources"+File.separator+"images");
       //  String path = System.getProperty("user.dir")+File.separator+"src"+File.separator+"main"+File.separator+"resources"+File.separator+"images";
@@ -235,12 +258,12 @@ public class Main extends Application {
     @Override
     public void stop() throws Exception {
         super.stop();
-
+        System.out.println("dame test");
         System.out.println("fermeture main");
     }
 
-    public static void main(String[] args) {
-/*       try {
+ /*   public static void main(String[] args) {
+*//*       try {
             File file = new File("A.txt");
             if(!file.exists())
                 file.createNewFile();
@@ -249,7 +272,7 @@ public class Main extends Application {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        }*/
+        }*//*
         launch(args);
-    }
+    }*/
 }

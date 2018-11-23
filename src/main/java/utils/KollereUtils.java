@@ -3,7 +3,9 @@ package utils;
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
 import com.sun.jersey.api.client.WebResource;
+import com.sun.jersey.api.client.config.ClientConfig;
 import com.sun.jersey.api.client.config.DefaultClientConfig;
+import com.sun.jersey.api.json.JSONConfiguration;
 import javafx.application.Platform;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
@@ -36,6 +38,7 @@ public class KollereUtils {
     public static final String IMAGE_LOC = "/images/logo_KOLLERE.png";
     public static  String TOKEN;
     public static  String AGENTID;
+    public static  String SAVEURL="http://212.71.244.7:8080/kollere/save";
     public static  Boolean READ=false;
     public static PrintStream OUTPUTFILE;
     public static final NumberFormat NUMBER_FORMAT = NumberFormat.getInstance(java.util.Locale.FRENCH);
@@ -82,7 +85,8 @@ public class KollereUtils {
             URI uri = UriBuilder.fromUri(url).build();
             //WebResource.Builder webResource = client.resource(uri).post(WebResource.class).header("","").accept(MediaType.APPLICATION_JSON);
             //ClientResponse clientResponse = client.resource(uri).post(ClientResponse.class);
-            ClientResponse clientResponse = client.resource(uri).header("type_requete","DESKTOP").post(ClientResponse.class);
+            ClientResponse clientResponse = client.resource(uri).header("type_requete","DESKTOP").header("withcard","0").post(ClientResponse.class);
+          //  ClientResponse //clientResponse = client.resource(uri).header("type_requete","DESKTOP").post(ClientResponse.class);
             String val = clientResponse.getEntity(String.class);
             //String val = webResource.get(String.class);
             System.out.println("********* Reponse ======>"+val+"***********************");
@@ -95,6 +99,29 @@ public class KollereUtils {
             return null;
 
         }
+    }
+
+    public static  void saveuser(modules.carte.inscription.Client user){
+
+        try {
+
+            Client client = Client.create();
+
+            WebResource webResource = client.resource(SAVEURL);
+
+            ObjectMapper mapper = new ObjectMapper();
+            String jsonInString = mapper.writeValueAsString(user);
+            ClientResponse response = webResource.type("application/json")
+                    .post(ClientResponse.class, jsonInString);
+            String output = response.getEntity(String.class);
+            System.out.println(output.toString());
+
+        } catch (Exception e) {
+
+            e.printStackTrace();
+
+        }
+
     }
 
     public static void showAlert(String message,String title,String type){
